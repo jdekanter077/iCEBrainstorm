@@ -448,7 +448,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "PCM_JLCPCB-Connectors_Buttons"
+    ]
   },
   "meta": {
     "filename": "iCEBrainstorm.kicad_pro",
