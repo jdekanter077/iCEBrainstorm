@@ -1,4 +1,4 @@
-26803277278238360
+26813858452204818
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69089,6 +69089,48 @@ THT
 0
 4
 2
+JJ
+JJ_SolderWire-0.1sqmm_1x04_P3.6mm_D0.4mm_OD1mm
+Soldered wire connection, for 4 times 0.1 mm² wires, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.10 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.1sqmm
+0
+4
+4
+JJ
+JJ_XT30PW-F_1x02_P2.50mm_Horizontal
+Connector XT30 Horizontal PCB Female, https://www.tme.eu/Document/f383737e340bfdab1f665284174b4ea2/XT30PW-F.pdf
+RC Connector XT30
+0
+4
+2
+JJ
+JJ_XT30PW-M_1x02_P2.50mm_Horizontal
+Connector XT30 Horizontal PCB Male, https://www.tme.eu/Document/6eb2005a51a52592b3f19e8a450c54c8/XT30PW-M.pdf
+RC Connector XT30
+0
+4
+2
+JJ
+JJ_XT60PW-F_1x02_P7.20mm_Horizontal
+Connector XT60 Horizontal PCB Female, https://www.tme.eu/Document/1191bc2fa3aee3c446e5a895fd8f7983/XT60PW-F.pdf
+RC Connector XT60
+0
+4
+2
+JJ
+JJ_XT60PW-M_1x02_P7.20mm_Horizontal
+Connector XT60 Horizontal PCB Female, https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf
+RC Connector XT60
+0
+4
+2
+JJ
+dc-dc
+
+
+0
+0
+0
 Jumper
 Jumper_Harwin_S1621_P10.9mm
 Harwin SMD jumper link, 12.3x2.3mm, 1.8mm height, 10.9mm pad pitch, https://cdn.harwin.com/pdfs/S1621R.pdf
