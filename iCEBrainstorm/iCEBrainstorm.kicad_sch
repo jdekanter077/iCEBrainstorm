@@ -699,415 +699,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x08_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x08_Pin"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x08, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x08_Pin_1_1"
-				(rectangle
-					(start 0.8636 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -10.033)
-					(end 0 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 7.62) (xy 0.8636 7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -10.16) (xy 0.8636 -10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 7.62 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -10.16 180)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x16_Pin"
 			(pin_names
 				(offset 1.016)
@@ -12999,12 +12590,6 @@
 		(uuid "0c70ddb0-3c7c-4304-9b87-a6bb60172bea")
 	)
 	(junction
-		(at 270.51 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d53b839-0164-48c2-9c61-6c2e659ea44d")
-	)
-	(junction
 		(at 140.97 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13033,18 +12618,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15571cd0-930c-43b6-a16b-3402cd3cf577")
-	)
-	(junction
-		(at 340.36 241.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "181dad0f-79c1-4bbc-8f31-39a4c66eec3c")
-	)
-	(junction
-		(at 340.36 238.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e0d260c-3a9e-4761-b7d5-7e3f6500a6b0")
 	)
 	(junction
 		(at 132.08 27.94)
@@ -13179,22 +12752,10 @@
 		(uuid "71eeca31-9eb1-4a62-a716-71ab756bb05a")
 	)
 	(junction
-		(at 270.51 238.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72a2ace1-316b-40b2-aa77-98c34d68237e")
-	)
-	(junction
 		(at 128.27 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75496233-130d-4246-ba75-d9a7edd5348e")
-	)
-	(junction
-		(at 270.51 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7660f298-1199-4571-bb22-3a3f3f07f921")
 	)
 	(junction
 		(at 167.64 54.61)
@@ -13239,16 +12800,16 @@
 		(uuid "87ba8b54-0109-4d79-b543-423cdc31d94f")
 	)
 	(junction
+		(at 340.36 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b50452c-6129-4af0-87c1-4f2fe597b359")
+	)
+	(junction
 		(at 417.83 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b534f28-129f-40cd-848c-5dbfa5ac497a")
-	)
-	(junction
-		(at 270.51 241.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8eeb433a-385b-41d0-b80c-dea377787808")
 	)
 	(junction
 		(at 97.79 294.64)
@@ -13474,16 +13035,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 372.11) (xy 171.45 372.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03b30c19-d874-4d8f-a529-91c52b83ad4b")
-	)
-	(wire
-		(pts
 			(xy 93.98 295.91) (xy 93.98 294.64)
 		)
 		(stroke
@@ -13504,16 +13055,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 236.22) (xy 289.56 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05efbac0-a865-46ab-965a-908e8ac0d793")
-	)
-	(wire
-		(pts
 			(xy 114.3 27.94) (xy 123.19 27.94)
 		)
 		(stroke
@@ -13521,6 +13062,16 @@
 			(type default)
 		)
 		(uuid "069dea6c-e70b-414d-97c6-126cadf526b6")
+	)
+	(wire
+		(pts
+			(xy 162.56 367.03) (xy 171.45 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d1b8ee-1661-49ef-bb30-33954722ae2c")
 	)
 	(wire
 		(pts
@@ -13581,26 +13132,6 @@
 			(type default)
 		)
 		(uuid "0dbcdb07-4a60-4788-b15f-ed82fc8d2067")
-	)
-	(wire
-		(pts
-			(xy 278.13 233.68) (xy 289.56 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dd12b99-48e3-4607-bcd7-8835d2635d45")
-	)
-	(wire
-		(pts
-			(xy 340.36 238.76) (xy 340.36 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e8eb783-ba2b-4393-94b6-d44e52ef38e3")
 	)
 	(wire
 		(pts
@@ -13684,7 +13215,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 254) (xy 347.98 254)
+			(xy 353.06 241.3) (xy 347.98 241.3)
 		)
 		(stroke
 			(width 0)
@@ -13704,16 +13235,6 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 243.84) (xy 364.49 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f14271a-aae7-47e0-81eb-9389f39422f4")
-	)
-	(wire
-		(pts
 			(xy 90.17 152.4) (xy 95.25 152.4)
 		)
 		(stroke
@@ -13721,16 +13242,6 @@
 			(type default)
 		)
 		(uuid "1f57d45d-364b-4cbf-9b00-d2350844a24c")
-	)
-	(wire
-		(pts
-			(xy 353.06 238.76) (xy 347.98 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "204664f7-d237-4b31-b7b9-617979510b72")
 	)
 	(wire
 		(pts
@@ -13784,16 +13295,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 236.22) (xy 270.51 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cb20f43-6fcd-4844-bc92-01d356ff6a82")
-	)
-	(wire
-		(pts
 			(xy 140.97 35.56) (xy 154.94 35.56)
 		)
 		(stroke
@@ -13814,16 +13315,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 226.06) (xy 289.56 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3207b389-7f38-482d-9b56-9f05f2d9743e")
-	)
-	(wire
-		(pts
 			(xy 25.4 267.97) (xy 25.4 269.24)
 		)
 		(stroke
@@ -13831,6 +13322,16 @@
 			(type default)
 		)
 		(uuid "3454bb21-279d-4bd9-91dc-73f1cab188eb")
+	)
+	(wire
+		(pts
+			(xy 162.56 372.11) (xy 171.45 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ed4f54-7212-4669-b62a-e8fe333f5222")
 	)
 	(wire
 		(pts
@@ -13874,7 +13375,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 254) (xy 360.68 254)
+			(xy 364.49 241.3) (xy 360.68 241.3)
 		)
 		(stroke
 			(width 0)
@@ -14034,16 +13535,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 241.3) (xy 347.98 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ad94732-67a8-471f-b355-951c23fa7ffc")
-	)
-	(wire
-		(pts
 			(xy 318.77 38.1) (xy 323.85 38.1)
 		)
 		(stroke
@@ -14174,6 +13665,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 229.87) (xy 340.36 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54bd055d-3b53-4ece-89dd-4b4127a23638")
+	)
+	(wire
+		(pts
 			(xy 318.77 30.48) (xy 323.85 30.48)
 		)
 		(stroke
@@ -14294,16 +13795,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 228.6) (xy 270.51 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "650a6358-f1e8-4774-9f9f-6674466f402e")
-	)
-	(wire
-		(pts
 			(xy 189.23 359.41) (xy 186.69 359.41)
 		)
 		(stroke
@@ -14311,16 +13802,6 @@
 			(type default)
 		)
 		(uuid "65d58805-6a79-4bba-9aae-0914bf0987b3")
-	)
-	(wire
-		(pts
-			(xy 340.36 241.3) (xy 340.36 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6678ad15-a274-46e7-a51d-432a7defb2b1")
 	)
 	(wire
 		(pts
@@ -14404,16 +13885,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 236.22) (xy 340.36 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71b7d3b1-c885-42fc-9373-d43b726d50d8")
-	)
-	(wire
-		(pts
 			(xy 176.53 163.83) (xy 172.72 163.83)
 		)
 		(stroke
@@ -14421,16 +13892,6 @@
 			(type default)
 		)
 		(uuid "72023c28-779d-47a0-acb4-226272e23a67")
-	)
-	(wire
-		(pts
-			(xy 360.68 238.76) (xy 364.49 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7230eab3-6101-4591-9da8-39b9dc5aef9b")
 	)
 	(wire
 		(pts
@@ -14444,16 +13905,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 367.03) (xy 171.45 367.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "739a238c-2ce9-4d20-b2bf-3b9592b3e521")
-	)
-	(wire
-		(pts
 			(xy 387.35 181.61) (xy 422.91 181.61)
 		)
 		(stroke
@@ -14461,16 +13912,6 @@
 			(type default)
 		)
 		(uuid "754791dd-b1c3-4784-8dad-931a00527609")
-	)
-	(wire
-		(pts
-			(xy 353.06 236.22) (xy 347.98 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "779d1eb9-88b9-4a9f-b95d-534190cee925")
 	)
 	(wire
 		(pts
@@ -14521,16 +13962,6 @@
 			(type default)
 		)
 		(uuid "81818cbf-1568-4a7d-b388-d3730f2174cc")
-	)
-	(wire
-		(pts
-			(xy 270.51 241.3) (xy 270.51 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "826a9f56-9800-439f-beef-09202c3267d6")
 	)
 	(wire
 		(pts
@@ -14714,16 +14145,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 231.14) (xy 289.56 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f0bee1f-2279-42cb-b32b-1e1e61e5962d")
-	)
-	(wire
-		(pts
 			(xy 90.17 165.1) (xy 95.25 165.1)
 		)
 		(stroke
@@ -14734,16 +14155,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 374.65) (xy 171.45 374.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "922a5cca-7c87-482a-ad77-3877e533bc94")
-	)
-	(wire
-		(pts
 			(xy 360.68 233.68) (xy 364.49 233.68)
 		)
 		(stroke
@@ -14751,16 +14162,6 @@
 			(type default)
 		)
 		(uuid "9278939e-fa15-4ae8-8d81-57d4e2361ff2")
-	)
-	(wire
-		(pts
-			(xy 157.48 369.57) (xy 171.45 369.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9320d79e-4985-4249-bf02-b7927b183385")
 	)
 	(wire
 		(pts
@@ -14854,16 +14255,6 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 236.22) (xy 364.49 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1a4eb1a-8b68-459f-bdbe-0a2916d4b1c2")
-	)
-	(wire
-		(pts
 			(xy 43.18 267.97) (xy 43.18 269.24)
 		)
 		(stroke
@@ -14904,7 +14295,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 228.6) (xy 340.36 231.14)
+			(xy 340.36 228.6) (xy 340.36 229.87)
 		)
 		(stroke
 			(width 0)
@@ -15034,16 +14425,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 243.84) (xy 347.98 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0131659-6dcb-44f5-b11b-555749ae7fae")
-	)
-	(wire
-		(pts
 			(xy 353.06 233.68) (xy 347.98 233.68)
 		)
 		(stroke
@@ -15141,6 +14522,16 @@
 			(type default)
 		)
 		(uuid "bd5dad1d-e2a8-4082-8134-912ca64c026d")
+	)
+	(wire
+		(pts
+			(xy 162.56 374.65) (xy 171.45 374.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd64a01a-eed8-4119-9e30-ea76bd4f6e7d")
 	)
 	(wire
 		(pts
@@ -15254,16 +14645,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 238.76) (xy 270.51 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccabda3b-9a8c-4a05-9925-550c3eca61f3")
-	)
-	(wire
-		(pts
 			(xy 491.49 63.5) (xy 504.19 63.5)
 		)
 		(stroke
@@ -15324,16 +14705,6 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 241.3) (xy 364.49 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1a8946e-90c1-44c2-82a9-5336be3a3779")
-	)
-	(wire
-		(pts
 			(xy 314.96 30.48) (xy 318.77 30.48)
 		)
 		(stroke
@@ -15351,16 +14722,6 @@
 			(type default)
 		)
 		(uuid "d3934d50-97fc-4493-940a-e9cf9d9e31ba")
-	)
-	(wire
-		(pts
-			(xy 278.13 243.84) (xy 289.56 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3ca3528-e540-41f6-a618-a74319def5e5")
 	)
 	(wire
 		(pts
@@ -15411,16 +14772,6 @@
 			(type default)
 		)
 		(uuid "d86dd44c-33af-4fd1-8c0a-de6b8f865d5c")
-	)
-	(wire
-		(pts
-			(xy 270.51 226.06) (xy 270.51 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbbf6fae-f1b5-4ea2-95c7-fe7bd6d8eaf8")
 	)
 	(wire
 		(pts
@@ -15484,16 +14835,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 238.76) (xy 289.56 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e95418ae-c0a7-4dea-a136-d7f3210ed46e")
-	)
-	(wire
-		(pts
 			(xy 162.56 54.61) (xy 165.1 54.61)
 		)
 		(stroke
@@ -15554,16 +14895,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 241.3) (xy 289.56 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0fe4d0b-2205-4d2f-96a6-074d0b465d73")
-	)
-	(wire
-		(pts
 			(xy 165.1 54.61) (xy 167.64 54.61)
 		)
 		(stroke
@@ -15571,6 +14902,16 @@
 			(type default)
 		)
 		(uuid "f1f4ca51-a36a-4be8-8738-2b55f8ce9cc7")
+	)
+	(wire
+		(pts
+			(xy 162.56 369.57) (xy 171.45 369.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d1a43f-7e0f-4e7b-9bc5-cff7afc8df95")
 	)
 	(wire
 		(pts
@@ -15614,26 +14955,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 228.6) (xy 289.56 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fda7a7b2-0fd3-47ee-9f1b-f83a2b9ff9d9")
-	)
-	(wire
-		(pts
-			(xy 270.51 231.14) (xy 270.51 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff7daa03-7a00-4803-8dca-89fe4a396cc7")
-	)
-	(wire
-		(pts
 			(xy 25.4 373.38) (xy 27.94 373.38)
 		)
 		(stroke
@@ -15651,16 +14972,6 @@
 			(justify right bottom)
 		)
 		(uuid "009a442c-7970-499e-b56b-eef58179b809")
-	)
-	(label "IN3"
-		(at 281.94 233.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "02d5944b-549b-4734-93eb-7a4977371a8f")
 	)
 	(label "PC13"
 		(at 280.67 311.15 0)
@@ -15762,16 +15073,6 @@
 		)
 		(uuid "0ef58bca-2877-4e81-88ce-9928819a0df5")
 	)
-	(label "LED_GND1"
-		(at 157.48 374.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0fb8c93d-d6af-48af-948d-cd0d6d6fca77")
-	)
 	(label "USB_D-"
 		(at 44.45 96.52 0)
 		(effects
@@ -15791,16 +15092,6 @@
 			(justify right bottom)
 		)
 		(uuid "11bf4928-df2b-43c4-8d46-9374c7f173cd")
-	)
-	(label "LED_GND0"
-		(at 157.48 372.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1315d07e-bd80-4a48-a8ef-0490cf886f21")
 	)
 	(label "SPI1_SCK"
 		(at 185.42 74.93 0)
@@ -15832,36 +15123,6 @@
 		)
 		(uuid "18c83bad-ba0d-4fd5-85cb-30bedf1fbd2f")
 	)
-	(label "IN4"
-		(at 283.21 375.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "19420103-ad81-47bf-b0f3-6ea50a7764d5")
-	)
-	(label "OUT5"
-		(at 364.49 238.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1a17552e-a179-404d-a7c6-5d9f680c8a57")
-	)
-	(label "IN0"
-		(at 185.42 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1a5e4995-3ac9-46f1-b5be-81fa5fba542d")
-	)
 	(label "BOOT1"
 		(at 171.45 359.41 180)
 		(effects
@@ -15871,16 +15132,6 @@
 			(justify right bottom)
 		)
 		(uuid "1abd71e4-b009-406f-a91c-e837dc3920f7")
-	)
-	(label "OUT0"
-		(at 283.21 335.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1b260e63-0812-4b86-b81b-8e6c2f4197fd")
 	)
 	(label "BTN1"
 		(at 434.34 255.27 0)
@@ -15931,16 +15182,6 @@
 			(justify left bottom)
 		)
 		(uuid "2d176521-298c-47be-a112-106e848ffd42")
-	)
-	(label "OUT4"
-		(at 283.21 345.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2daa5132-34a6-4ed8-bf48-14e40b210215")
 	)
 	(label "SWO"
 		(at 185.42 113.03 0)
@@ -16011,6 +15252,16 @@
 			(justify right bottom)
 		)
 		(uuid "462d9fc3-5361-4b19-8633-8c070c409913")
+	)
+	(label "OUT_STM"
+		(at 185.42 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "487e9878-b07a-4593-a414-69d8daf1d451")
 	)
 	(label "USB_D-"
 		(at 185.42 90.17 0)
@@ -16102,15 +15353,15 @@
 		)
 		(uuid "5348d786-eb87-4b95-83da-821e4d7a9e62")
 	)
-	(label "OUT7"
-		(at 283.21 353.06 0)
+	(label "IN2"
+		(at 171.45 372.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "56193c95-851e-4af5-bfb4-124756cdbd3d")
+		(uuid "569251f2-17fa-4258-8c94-85b232f15c1b")
 	)
 	(label "I2C1_SDA"
 		(at 292.1 182.88 180)
@@ -16172,16 +15423,6 @@
 		)
 		(uuid "5e5e16de-0954-468b-a615-705bb34a2a93")
 	)
-	(label "OUT5"
-		(at 407.67 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5fa374be-a5b2-40d4-ae56-0405a24da54b")
-	)
 	(label "I2C1_SCL"
 		(at 317.5 271.78 0)
 		(effects
@@ -16231,16 +15472,6 @@
 			(justify left bottom)
 		)
 		(uuid "64304ea4-1d9b-401a-aa9f-6d879c9d9cad")
-	)
-	(label "OUT2"
-		(at 283.21 340.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "66e2770f-27a1-4bd8-968c-e27d8e33b190")
 	)
 	(label "VCCPLL"
 		(at 396.24 110.49 0)
@@ -16302,16 +15533,6 @@
 		)
 		(uuid "6b6fb832-a507-43a9-87e0-dd475c0bda86")
 	)
-	(label "IN3"
-		(at 185.42 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c68ebfd-a456-48bc-a94c-394d257aa7ca")
-	)
 	(label "FPGA_GLOBAL_3"
 		(at 306.07 177.8 180)
 		(effects
@@ -16322,36 +15543,6 @@
 		)
 		(uuid "6cdf2e27-67db-4c4b-8925-d5737337fbba")
 	)
-	(label "OUT7"
-		(at 364.49 243.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e22578f-af94-40db-af2b-ded22911b095")
-	)
-	(label "OUT7"
-		(at 308.61 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6e4ebaf9-436b-4a10-bac6-db28c51ea404")
-	)
-	(label "LED_GND1"
-		(at 340.36 236.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "70a1f190-5cd8-4575-9de2-baff102590d7")
-	)
 	(label "FPGA_BUS0"
 		(at 308.61 67.31 180)
 		(effects
@@ -16361,16 +15552,6 @@
 			(justify right bottom)
 		)
 		(uuid "70a960b6-9783-4c9d-a16b-4d0ea4530d9d")
-	)
-	(label "IN_GND0"
-		(at 157.48 367.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "70bf1338-aa2e-4ebb-8a34-a05a7f7d9410")
 	)
 	(label "FPGA_SPI_SO"
 		(at 392.43 167.64 180)
@@ -16401,16 +15582,6 @@
 			(justify right bottom)
 		)
 		(uuid "750ec806-e0aa-42ef-81ef-7ec1c402e9f6")
-	)
-	(label "IN_GND1"
-		(at 157.48 369.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "76411cba-19e2-4811-9f44-b0b72c416a87")
 	)
 	(label "FPGA_SPI_SCK"
 		(at 387.35 186.69 0)
@@ -16452,16 +15623,6 @@
 		)
 		(uuid "7cf213ad-14c9-4a95-99fe-1b7212ebf86c")
 	)
-	(label "IN5"
-		(at 283.21 378.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7cf46801-ed6f-4060-b586-07716fdad10e")
-	)
 	(label "RGB1"
 		(at 308.61 102.87 180)
 		(effects
@@ -16492,16 +15653,6 @@
 		)
 		(uuid "7ed91fb1-db3f-4b8d-8ed8-53990377cb39")
 	)
-	(label "IN_GND0"
-		(at 270.51 228.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "801e68d8-2a7c-4745-9d72-409cc38733e5")
-	)
 	(label "I2S5_CK"
 		(at 316.23 290.83 0)
 		(effects
@@ -16531,26 +15682,6 @@
 			(justify right bottom)
 		)
 		(uuid "81f124e8-5ab4-48e2-8596-8972f2c36ef0")
-	)
-	(label "IN5"
-		(at 281.94 238.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8235cfab-c413-4eef-acde-c9053cfac7fe")
-	)
-	(label "IN7"
-		(at 407.67 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8268fde6-1257-46e1-8651-fbc8ec708a25")
 	)
 	(label "FUD-"
 		(at 306.07 175.26 180)
@@ -16652,36 +15783,6 @@
 		)
 		(uuid "8dfe3495-1419-4138-9f0e-3e1149ffc8c7")
 	)
-	(label "IN1"
-		(at 185.42 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8e006c61-c3f5-4f4a-81d1-07a2f77b2ba8")
-	)
-	(label "IN1"
-		(at 283.21 368.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9099e927-51d3-4567-8603-54619ef9fbc4")
-	)
-	(label "OUT6"
-		(at 364.49 241.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "90a6eac8-9fea-4df7-bf8c-8cf999eb3a86")
-	)
 	(label "I2S5_CK"
 		(at 185.42 105.41 0)
 		(effects
@@ -16711,16 +15812,6 @@
 			(justify left bottom)
 		)
 		(uuid "92c7a64d-f5bb-44f1-ab76-12e07c317fde")
-	)
-	(label "OUT1"
-		(at 283.21 337.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9498241d-d642-4b02-a801-6b000dc6f9e1")
 	)
 	(label "FPGA_SPI_SO"
 		(at 205.74 80.01 0)
@@ -16762,16 +15853,6 @@
 		)
 		(uuid "9d50f64d-8cd3-4110-831f-3a00a7e2f8ca")
 	)
-	(label "OUT4"
-		(at 364.49 236.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9dc87b8c-7ea3-45ef-8aa3-04b4b2f245c9")
-	)
 	(label "SPI2_MOSI"
 		(at 299.72 74.93 180)
 		(effects
@@ -16781,16 +15862,6 @@
 			(justify right bottom)
 		)
 		(uuid "a28a806b-306c-4ee1-9c06-5fa97426789c")
-	)
-	(label "IN2"
-		(at 283.21 370.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a4b8121f-ad09-45b0-a5be-f57d3b99b58a")
 	)
 	(label "PC10"
 		(at 144.78 110.49 180)
@@ -16832,16 +15903,6 @@
 		)
 		(uuid "a7b06a29-13eb-4f2c-b729-b4f668095698")
 	)
-	(label "IN5"
-		(at 306.07 167.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a7bf2bba-acd0-40a6-8b46-17e739ba40b3")
-	)
 	(label "FPGA_BUS1"
 		(at 308.61 64.77 180)
 		(effects
@@ -16851,16 +15912,6 @@
 			(justify right bottom)
 		)
 		(uuid "a83423dc-5042-4c9b-8dcb-858901ffa298")
-	)
-	(label "IN6"
-		(at 306.07 160.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a853503a-4d57-4db7-8f3e-5fbc54178957")
 	)
 	(label "SPI1_MOSI"
 		(at 185.42 80.01 0)
@@ -16881,16 +15932,6 @@
 			(justify right bottom)
 		)
 		(uuid "abf97b6d-b312-44e1-8835-281f1a8eb799")
-	)
-	(label "IN0"
-		(at 283.21 365.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac13cfb7-f074-4031-9268-0b4f85e2c968")
 	)
 	(label "PC2"
 		(at 280.67 283.21 0)
@@ -16931,16 +15972,6 @@
 			(justify right bottom)
 		)
 		(uuid "ad8e2b48-41b6-45f8-a65b-15efbbd1e9f2")
-	)
-	(label "OUT8"
-		(at 185.42 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "adade7c5-fe78-44d5-8a6b-e18ea9452c04")
 	)
 	(label "OSC_OUT"
 		(at 176.53 163.83 0)
@@ -17012,16 +16043,6 @@
 		)
 		(uuid "b59c0763-9caf-4d4f-9904-2a0b697e44a5")
 	)
-	(label "IN_GND1"
-		(at 270.51 236.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b75ff8db-d1fd-44b3-887d-dcdefd70b0ac")
-	)
 	(label "SWO"
 		(at 95.25 160.02 180)
 		(effects
@@ -17031,16 +16052,6 @@
 			(justify right bottom)
 		)
 		(uuid "b8dd0b80-4bc2-4785-8ce9-a69f6ca102c5")
-	)
-	(label "IN0"
-		(at 281.94 226.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba4cd720-8a27-48c3-8e4f-a12abe5e4aea")
 	)
 	(label "PC15"
 		(at 144.78 123.19 180)
@@ -17122,18 +16133,8 @@
 		)
 		(uuid "c468cde7-ace0-43c8-a943-1ae7a4b68b3b")
 	)
-	(label "IN3"
-		(at 283.21 373.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c6224641-032b-47e1-a944-3dcac38670e7")
-	)
-	(label "OUT8"
-		(at 364.49 254 0)
+	(label "OUT_STM"
+		(at 364.49 241.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17161,16 +16162,6 @@
 			(justify left bottom)
 		)
 		(uuid "c91beab3-891d-4ab8-b23a-6855faa5c250")
-	)
-	(label "OUT4"
-		(at 407.67 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ca06565f-359d-467b-92eb-71b3c74ff781")
 	)
 	(label "RGB2"
 		(at 308.61 105.41 180)
@@ -17201,16 +16192,6 @@
 			(justify right bottom)
 		)
 		(uuid "cb8ea3e3-8017-45e6-a8d3-085561deaca0")
-	)
-	(label "IN6"
-		(at 281.94 241.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cfc9e7e3-f7c5-4cac-88cc-3c9842004c90")
 	)
 	(label "PC4"
 		(at 280.67 288.29 0)
@@ -17262,16 +16243,6 @@
 		)
 		(uuid "d5d06a88-2e17-40e1-a6e9-896d7b7c1fc6")
 	)
-	(label "OUT3"
-		(at 283.21 342.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6ce5af4-a517-4b52-9e20-d1ea3f1dd50c")
-	)
 	(label "FPGA_SPI_CS"
 		(at 392.43 162.56 180)
 		(effects
@@ -17292,26 +16263,6 @@
 		)
 		(uuid "da0c8db4-f03e-4400-ba3a-18243e209d87")
 	)
-	(label "OUT5"
-		(at 283.21 347.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "da707c66-b0fe-4699-9233-da548295fc5b")
-	)
-	(label "IN7"
-		(at 283.21 383.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dbd71ee3-444e-48fe-bdcc-4308f9b87833")
-	)
 	(label "OUT0"
 		(at 407.67 82.55 180)
 		(effects
@@ -17322,16 +16273,6 @@
 		)
 		(uuid "def1f69a-da17-4ed7-8a1a-e0e810f04aab")
 	)
-	(label "IN4"
-		(at 306.07 165.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dfccec45-4aef-4e06-8046-8da72e048c87")
-	)
 	(label "PC11"
 		(at 280.67 306.07 0)
 		(effects
@@ -17341,16 +16282,6 @@
 			(justify left bottom)
 		)
 		(uuid "e127600c-8a2d-4f8f-b2d9-d66a75615054")
-	)
-	(label "IN2"
-		(at 281.94 231.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e2072e1d-87de-48d6-ac2d-0e48a7245d0f")
 	)
 	(label "FPGA_GLOBAL_3"
 		(at 316.23 316.23 0)
@@ -17372,26 +16303,6 @@
 		)
 		(uuid "e3751357-1d31-4cac-9f6c-9b6ce6682b15")
 	)
-	(label "OUT6"
-		(at 308.61 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e3abab0e-31a2-42f0-b0fe-b7f2c8a6bf69")
-	)
-	(label "IN7"
-		(at 281.94 243.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e6369148-0321-41cb-bd29-f014a624e787")
-	)
 	(label "PC5"
 		(at 280.67 290.83 0)
 		(effects
@@ -17402,26 +16313,6 @@
 		)
 		(uuid "e7511802-6b57-45ae-a377-c127a552f572")
 	)
-	(label "IN1"
-		(at 281.94 228.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e9be7df9-0918-4e3a-8895-89647142b514")
-	)
-	(label "LED_GND0"
-		(at 340.36 226.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eaca24a4-aed4-41bd-8586-fbe8fbfbc8d6")
-	)
 	(label "PC0"
 		(at 280.67 278.13 0)
 		(effects
@@ -17431,6 +16322,16 @@
 			(justify left bottom)
 		)
 		(uuid "eb0d0458-ce7b-4727-b9c7-afcd9aa22c94")
+	)
+	(label "IN0"
+		(at 171.45 367.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb5c3374-d040-44a4-923a-d4ff70b6c13a")
 	)
 	(label "OSC_IN"
 		(at 144.78 72.39 180)
@@ -17462,15 +16363,15 @@
 		)
 		(uuid "ed54c789-cdb6-48ba-8ab2-7e9fa75e465c")
 	)
-	(label "IN2"
-		(at 185.42 115.57 0)
+	(label "IN1"
+		(at 171.45 369.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "ee58a2d1-2c73-47f4-b11a-4627f9cf5f6f")
+		(uuid "f15bc2d7-30c8-4c0d-bf68-5b801de41ca8")
 	)
 	(label "FPGA_GLOBAL_1"
 		(at 308.61 85.09 180)
@@ -17482,26 +16383,6 @@
 		)
 		(uuid "f1807ac7-ece3-4a36-973a-63dc7a257c9f")
 	)
-	(label "IN4"
-		(at 281.94 236.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f4fba1cb-fed1-401f-a551-12dd5ea01607")
-	)
-	(label "OUT6"
-		(at 283.21 350.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f769df33-d901-4814-b822-bedd0b335b68")
-	)
 	(label "USART2_RX"
 		(at 185.42 69.85 0)
 		(effects
@@ -17511,6 +16392,16 @@
 			(justify left bottom)
 		)
 		(uuid "f928dbb5-d998-421e-a5df-063a49f9904c")
+	)
+	(label "IN3"
+		(at 171.45 374.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f9f5f060-a49a-43d5-859c-ae1c159b0470")
 	)
 	(label "FPGA_SPI_SCK"
 		(at 392.43 170.18 180)
@@ -17531,16 +16422,6 @@
 			(justify right bottom)
 		)
 		(uuid "fa3d248a-3f2b-45bf-a008-5a7c65f9fc88")
-	)
-	(label "IN6"
-		(at 283.21 381 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "faa72175-861d-4999-ae66-739dbddfe793")
 	)
 	(label "PC2"
 		(at 144.78 90.17 180)
@@ -17606,38 +16487,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 171.45 367.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "03ba9d90-c09a-4e64-ac01-4a3415fc60f6")
-		(property "Netclass" "Power"
-			(at 170.7515 369.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Component Class" ""
-			(at 236.22 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 34.29 269.24 180)
 		(fields_autoplaced yes)
 		(effects
@@ -17663,38 +16512,6 @@
 					(size 1.27 1.27)
 					(italic yes)
 				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 171.45 372.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "64170778-9933-4098-adb7-1a2851784e7f")
-		(property "Netclass" "Power"
-			(at 170.7515 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Component Class" ""
-			(at 236.22 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -17732,38 +16549,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 171.45 369.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "91201906-0913-4ad2-a4f7-2fb438c1ac3d")
-		(property "Netclass" "Power"
-			(at 170.7515 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Component Class" ""
-			(at 236.22 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 53.34 266.7 0)
 		(fields_autoplaced yes)
 		(effects
@@ -17788,259 +16573,6 @@
 				(font
 					(size 1.27 1.27)
 					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 171.45 374.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "afd5f61c-a40f-462d-b7a6-8c126ca4d2db")
-		(property "Netclass" "Power"
-			(at 170.7515 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Component Class" ""
-			(at 236.22 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0603,15kΩ")
-		(at 274.32 241.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00bee4bb-29af-48cc-a316-97a907b0652c")
-		(property "Reference" "R23"
-			(at 278.892 240.538 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15kΩ"
-			(at 274.32 241.3 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 274.32 243.078 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1502T5E_C22809.pdf"
-			(at 274.32 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 15kΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 274.32 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22809"
-			(at 274.32 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "1478337"
-			(at 274.32 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 274.32 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 274.32 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 274.32 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 274.32 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 274.32 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 274.32 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 274.32 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0603WAF1502T5E"
-			(at 274.32 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "15kΩ"
-			(at 274.32 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "100mW"
-			(at 274.32 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 274.32 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "75V"
-			(at 274.32 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 274.32 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 274.32 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 274.32 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "899901d6-a1fb-4961-a88c-785a1a070a8b")
-		)
-		(pin "1"
-			(uuid "a48fe615-4fcf-4074-a9b8-e1d5598041d1")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R23")
-					(unit 1)
 				)
 			)
 		)
@@ -18338,294 +16870,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 304.8 243.84 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02c54eab-157d-4d58-8633-2b990b02bc28")
-		(property "Reference" "#PWR066"
-			(at 300.99 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 308.61 243.8399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.8 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 304.8 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4659e59-7575-4735-8353-ed5e24238517")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0603,15kΩ")
-		(at 274.32 238.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "02e38b9c-0ae1-4c70-9124-066baaf9e29d")
-		(property "Reference" "R22"
-			(at 278.892 237.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15kΩ"
-			(at 274.32 238.76 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 274.32 240.538 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1502T5E_C22809.pdf"
-			(at 274.32 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 15kΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 274.32 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22809"
-			(at 274.32 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "1478337"
-			(at 274.32 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 274.32 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 274.32 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 274.32 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 274.32 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 274.32 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 274.32 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 274.32 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0603WAF1502T5E"
-			(at 274.32 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "15kΩ"
-			(at 274.32 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "100mW"
-			(at 274.32 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 274.32 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "75V"
-			(at 274.32 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 274.32 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 274.32 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 274.32 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "40ac7cbc-4b58-41e5-b5c2-a9ab2d819cd0")
-		)
-		(pin "1"
-			(uuid "9b129cdf-9f2c-467a-a38e-db7c36021dee")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,5.1kΩ")
 		(at 48.26 86.36 90)
 		(unit 1)
@@ -18841,159 +17085,6 @@
 			(project ""
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x08_Pin")
-		(at 278.13 342.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "036b7dc9-ef4d-4979-9b1e-a5d5c9359706")
-		(property "Reference" "J4"
-			(at 278.765 330.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x08_Pin"
-			(at 278.765 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 278.13 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 278.13 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 278.13 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "c3679484-bea3-4a9a-8b4d-d7e6ba96335f")
-		)
-		(pin "4"
-			(uuid "f5d4a055-9c7c-4269-b5c3-78b5637b043b")
-		)
-		(pin "8"
-			(uuid "9c64e0e4-88ee-4cbc-8b02-07446d2c23fa")
-		)
-		(pin "7"
-			(uuid "6930c646-2253-4787-9c18-0fc764849d7f")
-		)
-		(pin "6"
-			(uuid "01dadd8a-4631-4c62-a08b-7555c56dbe0a")
-		)
-		(pin "1"
-			(uuid "de5df6c2-eb1d-4cf7-94a7-f5075f34877b")
-		)
-		(pin "2"
-			(uuid "3fee368c-24d0-4d10-8f42-c4960aebfaa7")
-		)
-		(pin "3"
-			(uuid "5c2a9aec-0040-46f0-bbb2-0e6633dca23f")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 304.8 228.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03e3a1b4-a328-4046-a6b8-c78177b1c331")
-		(property "Reference" "#PWR060"
-			(at 300.99 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 308.61 228.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.8 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 304.8 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f44c940c-42b4-4828-9d71-a6e988c0445b")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -19867,33 +17958,17 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0603,1.5kΩ")
-		(at 344.17 236.22 270)
+		(lib_id "power:+3V3")
+		(at 186.69 367.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "07600cfc-a364-498e-92dd-3837460eb77d")
-		(property "Reference" "R35"
-			(at 348.742 235.204 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.5kΩ"
-			(at 344.17 236.22 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 344.17 234.442 90)
+		(fields_autoplaced yes)
+		(uuid "07ef18c9-8a14-412c-8fe1-3946fb981989")
+		(property "Reference" "#PWR045"
+			(at 182.88 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19901,8 +17976,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1501T5E_C22843.pdf"
-			(at 344.17 236.22 0)
+		(property "Value" "+3V3"
+			(at 190.5 367.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19910,8 +17994,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 1.5kΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 344.17 236.22 0)
+		(property "Datasheet" ""
+			(at 186.69 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19919,169 +18003,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22843"
-			(at 344.17 236.22 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 186.69 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Stock" "2582969"
-			(at 344.17 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 344.17 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 344.17 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 344.17 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 344.17 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 344.17 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 344.17 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 344.17 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0603WAF1501T5E"
-			(at 344.17 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "1.5kΩ"
-			(at 344.17 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "100mW"
-			(at 344.17 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 344.17 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "75V"
-			(at 344.17 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 344.17 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 344.17 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 344.17 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8340efdd-f598-430f-a7ac-6b7e274d776e")
 		)
 		(pin "1"
-			(uuid "624d933b-732f-4e44-ae20-2b52eee291a7")
+			(uuid "2f546621-0a30-464c-bab6-afee55c45ed5")
 		)
 		(instances
 			(project "iCEBrainstorm"
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R35")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -20379,172 +18316,6 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Diodes:LED,0805,Green")
-		(at 356.87 241.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b02933e-6712-43af-ae4b-1a4f09335b42")
-		(property "Reference" "D11"
-			(at 359.664 240.284 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Green"
-			(at 360.172 242.062 90)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_0805"
-			(at 356.87 239.522 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806151820_Hubei-KENTO-Elec-KT-0805G_C2297.pdf"
-			(at 356.87 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Emerald 0805 LED Indication - Discrete ROHS"
-			(at 356.87 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2297"
-			(at 356.87 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "2062782"
-			(at 356.87 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.014USD"
-			(at 356.87 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 356.87 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 356.87 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 356.87 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 356.87 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Optoelectronics,Light Emitting Diodes (LED)"
-			(at 356.87 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Hubei KENTO Elec"
-			(at 356.87 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "KT-0805G"
-			(at 356.87 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Emitted Color" "Emerald"
-			(at 356.87 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66172266-b7fd-480d-ad76-e2af5a5cda67")
-		)
-		(pin "2"
-			(uuid "eee29855-09c1-4594-ae9d-9192b8b868eb")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:LED,0805,Green")
 		(at 340.36 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20778,116 +18549,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DIP_x08")
-		(at 297.18 236.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d463f50-8128-4453-ae4b-76ed728b9f54")
-		(property "Reference" "SW2"
-			(at 297.18 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DIP_x08"
-			(at 297.18 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx08_Slide_6.7x21.88mm_W7.62mm_P2.54mm_LowProfile"
-			(at 297.18 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 297.18 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 297.18 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "aa122284-d0c7-44e8-a05c-eb771b014ff1")
-		)
-		(pin "6"
-			(uuid "47abfd7a-81b0-4b5a-babf-6ab142dbb778")
-		)
-		(pin "7"
-			(uuid "f120af94-96ea-48b3-8418-20555e279ef6")
-		)
-		(pin "8"
-			(uuid "c22de2ff-67b9-4515-8593-ab5281a7b063")
-		)
-		(pin "16"
-			(uuid "d8a227ae-6839-4d2c-b9a1-c720d578d62e")
-		)
-		(pin "9"
-			(uuid "a5a9ed4e-9999-4a32-b81e-ffe3711cec62")
-		)
-		(pin "10"
-			(uuid "0534302f-ba04-4740-86aa-38c57e3b122a")
-		)
-		(pin "11"
-			(uuid "3f8a184d-a4cd-4116-ade7-4310ed77693f")
-		)
-		(pin "12"
-			(uuid "4e9c5a43-88cc-4b8a-8c62-dd8eac0f1578")
-		)
-		(pin "13"
-			(uuid "a493d41c-e7d7-43d6-a3ac-b8d22f1f34cb")
-		)
-		(pin "14"
-			(uuid "67386c19-aa19-487c-a040-e0f887fa1c60")
-		)
-		(pin "15"
-			(uuid "0e516acc-8d3e-4ddf-8855-236344b1d730")
-		)
-		(pin "1"
-			(uuid "de9b7cc4-1bec-4359-bc9c-266d4c3a62f5")
-		)
-		(pin "2"
-			(uuid "f4d05495-8d7f-4a43-9298-dc9d22a1934b")
-		)
-		(pin "3"
-			(uuid "6deb04ce-ccd5-45db-895c-4dfeff06aa5a")
-		)
-		(pin "4"
-			(uuid "30e1e626-f78d-47f9-a5e8-e232ba5a5295")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 494.03 69.85 270)
 		(mirror x)
@@ -20956,74 +18617,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 266.7 241.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e7584ea-f9cd-4ad4-b2d7-8d4c2ad4174d")
-		(property "Reference" "JP7"
-			(at 270.256 240.284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 266.7 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 266.7 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 266.7 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 266.7 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13600166-4ade-4ad8-9dde-55158b400376")
-		)
-		(pin "2"
-			(uuid "a0af9634-cb56-434d-9fd7-a930ed3a974f")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "JP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 280.67 300.99 270)
 		(unit 1)
@@ -21085,6 +18678,73 @@
 			(project ""
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 186.69 374.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1179649f-0869-4630-8e65-32219c303b88")
+		(property "Reference" "#PWR048"
+			(at 182.88 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 190.5 374.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 186.69 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "290713e2-c14b-4454-a387-bce3fff17971")
+		)
+		(instances
+			(project "iCEBrainstorm"
+				(path "/a979115e-05e2-465d-a941-b2ab44135948"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -21415,227 +19075,6 @@
 			(project "iCEBrainstorm"
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0603,15kΩ")
-		(at 274.32 243.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "13e4182b-659b-4844-bafd-469f982f1d82")
-		(property "Reference" "R24"
-			(at 278.892 243.078 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15kΩ"
-			(at 274.32 243.84 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 274.32 245.618 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1502T5E_C22809.pdf"
-			(at 274.32 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 15kΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 274.32 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22809"
-			(at 274.32 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "1478337"
-			(at 274.32 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 274.32 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 274.32 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 274.32 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 274.32 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 274.32 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 274.32 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 274.32 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0603WAF1502T5E"
-			(at 274.32 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "15kΩ"
-			(at 274.32 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "100mW"
-			(at 274.32 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 274.32 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "75V"
-			(at 274.32 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 274.32 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 274.32 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 274.32 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "662a1714-957c-45b6-a9d1-730806c5e3d8")
-		)
-		(pin "1"
-			(uuid "f7e02589-3dc1-4363-a3d5-a7f836fa5fd0")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -21995,6 +19434,228 @@
 			(project "iCEBrainstorm"
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0603,15kΩ")
+		(at 158.75 369.57 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1769b13d-46c9-4610-a058-05a2050fe6d8")
+		(property "Reference" "R18"
+			(at 163.322 368.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15kΩ"
+			(at 158.75 369.57 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0603"
+			(at 158.75 367.792 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1502T5E_C22809.pdf"
+			(at 158.75 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 15kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 158.75 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22809"
+			(at 158.75 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "1478337"
+			(at 158.75 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 158.75 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 158.75 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 158.75 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 158.75 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 158.75 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 158.75 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 158.75 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0603WAF1502T5E"
+			(at 158.75 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "15kΩ"
+			(at 158.75 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "100mW"
+			(at 158.75 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 158.75 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "75V"
+			(at 158.75 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 158.75 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 158.75 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 158.75 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f4f43d8-c3e7-476c-b686-6ebc0b045118")
+		)
+		(pin "1"
+			(uuid "29fc6b7b-1b35-4cb6-9706-b9d16a0a6896")
+		)
+		(instances
+			(project "iCEBrainstorm"
+				(path "/a979115e-05e2-465d-a941-b2ab44135948"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -22505,73 +20166,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 367.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a4d7f67-1f71-4bf1-bc0f-fdba04aa659a")
-		(property "Reference" "#PWR045"
-			(at 193.04 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 367.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea6feca4-82e5-4784-b715-8f4cb38daa77")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 139.7 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22741,306 +20335,6 @@
 			(project ""
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 262.89 231.14 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c435680-44a5-4e2b-b498-80843e628f16")
-		(property "Reference" "#PWR054"
-			(at 256.54 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 259.08 231.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f488683-ac45-46d1-8a4e-c2a64c1a464c")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 304.8 226.06 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1cc9de24-9971-4421-b15f-7813a4c834c5")
-		(property "Reference" "#PWR059"
-			(at 300.99 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 308.61 226.0599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.8 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 304.8 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9fa2324d-a217-4558-a5cb-184ca4314272")
-		)
-		(instances
-			(project ""
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:LED,0805,Green")
-		(at 356.87 236.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d3b58ab-21b6-494e-a043-142c90d3d38e")
-		(property "Reference" "D9"
-			(at 359.664 235.204 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Green"
-			(at 360.172 236.982 90)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_0805"
-			(at 356.87 234.442 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806151820_Hubei-KENTO-Elec-KT-0805G_C2297.pdf"
-			(at 356.87 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Emerald 0805 LED Indication - Discrete ROHS"
-			(at 356.87 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2297"
-			(at 356.87 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "2062782"
-			(at 356.87 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.014USD"
-			(at 356.87 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 356.87 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 356.87 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 356.87 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 356.87 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Optoelectronics,Light Emitting Diodes (LED)"
-			(at 356.87 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Hubei KENTO Elec"
-			(at 356.87 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "KT-0805G"
-			(at 356.87 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Emitted Color" "Emerald"
-			(at 356.87 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e4e093b-f4e9-4f99-896b-122bff063888")
-		)
-		(pin "2"
-			(uuid "6f7ab6f9-0a32-428b-af10-c69537015eca")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -25032,73 +22326,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 186.69 369.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2da4b9f5-9f43-428d-98b4-97cfed6dd4e2")
-		(property "Reference" "#PWR046"
-			(at 193.04 369.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 369.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 369.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 369.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 369.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac1b5b01-7816-4ec6-a1f2-14db1945dde9")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 318.77 30.48 0)
 		(unit 1)
@@ -25159,73 +22386,6 @@
 			(project ""
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
 					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 332.74 241.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e9107a3-fc9c-40c3-b46c-923f4d0d19e1")
-		(property "Reference" "#PWR074"
-			(at 326.39 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 328.93 241.2999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 332.74 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 332.74 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 332.74 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ccd85f3e-126c-42ca-9027-5ca394ba9fb5")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -26528,227 +23688,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0603,15kΩ")
-		(at 274.32 231.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37b0ffed-d43e-4419-8812-81f0193d76d1")
-		(property "Reference" "R19"
-			(at 278.892 230.378 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15kΩ"
-			(at 274.32 231.14 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 274.32 232.918 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1502T5E_C22809.pdf"
-			(at 274.32 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 15kΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 274.32 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22809"
-			(at 274.32 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "1478337"
-			(at 274.32 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 274.32 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 274.32 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 274.32 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 274.32 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 274.32 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 274.32 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 274.32 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0603WAF1502T5E"
-			(at 274.32 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "15kΩ"
-			(at 274.32 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "100mW"
-			(at 274.32 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 274.32 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "75V"
-			(at 274.32 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 274.32 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 274.32 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 274.32 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7c07b26f-3ee0-4a83-9bab-89fb08716b44")
-		)
-		(pin "1"
-			(uuid "ee2cb4f0-5207-477e-a9cf-53ceb2d5282b")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 312.42 271.78 0)
 		(unit 1)
@@ -27186,227 +24125,6 @@
 			(project ""
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0603,1.5kΩ")
-		(at 344.17 238.76 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b5b33df-035e-430d-ac1a-074d307d8bc6")
-		(property "Reference" "R36"
-			(at 348.742 237.744 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.5kΩ"
-			(at 344.17 238.76 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 344.17 236.982 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1501T5E_C22843.pdf"
-			(at 344.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 1.5kΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 344.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22843"
-			(at 344.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "2582969"
-			(at 344.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 344.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 344.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 344.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 344.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 344.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 344.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 344.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0603WAF1501T5E"
-			(at 344.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "1.5kΩ"
-			(at 344.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "100mW"
-			(at 344.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 344.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "75V"
-			(at 344.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 344.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 344.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 344.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2c1429d8-c0b1-443b-a85b-ce71a2692b1c")
-		)
-		(pin "1"
-			(uuid "bc3482e3-a90d-4264-8010-d6564cb5f444")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -27877,6 +24595,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 154.94 374.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d97e77d-ca82-4e5b-baa8-3b146a3c3b7c")
+		(property "Reference" "#PWR060"
+			(at 148.59 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 374.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c898ac4e-6d81-4ff6-9cac-165c4e56f675")
+		)
+		(instances
+			(project "iCEBrainstorm"
+				(path "/a979115e-05e2-465d-a941-b2ab44135948"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,10pF")
 		(at 176.53 167.64 0)
 		(unit 1)
@@ -28340,6 +25125,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 186.69 372.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44870fd3-7843-4c5c-b328-2760f6e96300")
+		(property "Reference" "#PWR047"
+			(at 182.88 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 190.5 372.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 186.69 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a82f458-d754-4c62-8efa-482f8b51f663")
+		)
+		(instances
+			(project "iCEBrainstorm"
+				(path "/a979115e-05e2-465d-a941-b2ab44135948"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 41.91 31.75 90)
 		(unit 1)
@@ -28601,7 +25453,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 332.74 231.14 270)
+		(at 340.36 229.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28610,7 +25462,7 @@
 		(fields_autoplaced yes)
 		(uuid "4765c5d5-b1d4-4db8-be54-ebc3eb5b8b2d")
 		(property "Reference" "#PWR073"
-			(at 326.39 231.14 0)
+			(at 334.01 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28619,7 +25471,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 328.93 231.1399 90)
+			(at 336.55 229.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28628,7 +25480,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 332.74 231.14 0)
+			(at 340.36 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28637,7 +25489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 332.74 231.14 0)
+			(at 340.36 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28646,7 +25498,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 332.74 231.14 0)
+			(at 340.36 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29156,7 +26008,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,1.5kΩ")
-		(at 344.17 254 270)
+		(at 344.17 241.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29164,7 +26016,7 @@
 		(dnp no)
 		(uuid "4cc35a82-f7fa-4f4a-a248-ec17a8da152a")
 		(property "Reference" "R39"
-			(at 348.742 252.984 90)
+			(at 348.742 240.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29172,7 +26024,7 @@
 			)
 		)
 		(property "Value" "1.5kΩ"
-			(at 344.17 254 90)
+			(at 344.17 241.3 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -29181,7 +26033,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 344.17 252.222 90)
+			(at 344.17 239.522 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29190,7 +26042,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1501T5E_C22843.pdf"
-			(at 344.17 254 0)
+			(at 344.17 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29199,7 +26051,7 @@
 			)
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 1.5kΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 344.17 254 0)
+			(at 344.17 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29208,7 +26060,7 @@
 			)
 		)
 		(property "LCSC" "C22843"
-			(at 344.17 254 0)
+			(at 344.17 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29217,7 +26069,7 @@
 			)
 		)
 		(property "Stock" "2582969"
-			(at 344.17 254 0)
+			(at 344.17 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29226,7 +26078,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 344.17 254 0)
+			(at 344.17 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29235,7 +26087,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 344.17 254 0)
+			(at 344.17 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29244,7 +26096,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 344.17 254 0)
+			(at 344.17 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29253,7 +26105,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 344.17 254 0)
+			(at 344.17 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29262,7 +26114,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 344.17 254 0)
+			(at 344.17 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29271,7 +26123,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 344.17 254 0)
+			(at 344.17 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29280,7 +26132,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 344.17 254 0)
+			(at 344.17 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29289,7 +26141,7 @@
 			)
 		)
 		(property "Part" "0603WAF1501T5E"
-			(at 344.17 254 0)
+			(at 344.17 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29298,7 +26150,7 @@
 			)
 		)
 		(property "Resistance" "1.5kΩ"
-			(at 344.17 254 0)
+			(at 344.17 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29307,7 +26159,7 @@
 			)
 		)
 		(property "Power(Watts)" "100mW"
-			(at 344.17 254 0)
+			(at 344.17 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29316,7 +26168,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 344.17 254 0)
+			(at 344.17 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29325,7 +26177,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "75V"
-			(at 344.17 254 0)
+			(at 344.17 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29334,7 +26186,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 344.17 254 0)
+			(at 344.17 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29343,7 +26195,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 344.17 254 0)
+			(at 344.17 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29352,7 +26204,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 344.17 254 0)
+			(at 344.17 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30792,73 +27644,6 @@
 			(project ""
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 262.89 241.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57a9fc30-389d-45ed-95b6-dfb5627219d5")
-		(property "Reference" "#PWR055"
-			(at 256.54 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 259.08 241.2999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b070e31a-a031-4753-ab51-ffc57118f5ed")
-		)
-		(instances
-			(project ""
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -33670,17 +30455,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 304.8 238.76 270)
+		(lib_id "PCM_JLCPCB-Resistors:0603,15kΩ")
+		(at 158.75 374.65 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "675c63d7-9e3c-46c5-81db-9d1c3923778a")
-		(property "Reference" "#PWR064"
-			(at 300.99 238.76 0)
+		(uuid "687f0de3-4507-4717-bc78-368eb2ba9c52")
+		(property "Reference" "R20"
+			(at 163.322 373.634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15kΩ"
+			(at 158.75 374.65 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0603"
+			(at 158.75 372.872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33688,17 +30490,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 308.61 238.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.8 238.76 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1502T5E_C22809.pdf"
+			(at 158.75 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33706,8 +30499,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 304.8 238.76 0)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 15kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 158.75 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33715,22 +30508,169 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 304.8 238.76 0)
+		(property "LCSC" "C22809"
+			(at 158.75 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Stock" "1478337"
+			(at 158.75 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 158.75 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 158.75 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 158.75 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 158.75 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 158.75 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 158.75 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 158.75 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0603WAF1502T5E"
+			(at 158.75 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "15kΩ"
+			(at 158.75 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "100mW"
+			(at 158.75 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 158.75 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "75V"
+			(at 158.75 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 158.75 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 158.75 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 158.75 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e13597a-3bd3-4dd9-bb2e-79cfb3f7e521")
 		)
 		(pin "1"
-			(uuid "016ec4ba-d075-4e86-9f3e-a3ab41c19d39")
+			(uuid "2fe99602-7944-48cf-ab75-eb23ccfdf958")
 		)
 		(instances
 			(project "iCEBrainstorm"
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "#PWR064")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -34020,74 +30960,6 @@
 			(project ""
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
 					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 336.55 241.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c129914-cb94-4496-ad5b-6d85684650a6")
-		(property "Reference" "JP13"
-			(at 340.106 240.284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 336.55 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 336.55 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 336.55 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 336.55 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b0545d3-2a01-440a-85ff-0cf7b3a5fa4d")
-		)
-		(pin "2"
-			(uuid "0f8ef238-ab81-4ce1-a263-ceecce357f77")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "JP13")
 					(unit 1)
 				)
 			)
@@ -34930,7 +31802,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 340.36 254 270)
+		(at 340.36 241.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34939,7 +31811,7 @@
 		(fields_autoplaced yes)
 		(uuid "750ba1fc-804c-4fb4-807a-94920245b3d6")
 		(property "Reference" "#PWR077"
-			(at 334.01 254 0)
+			(at 334.01 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34948,7 +31820,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 336.55 253.9999 90)
+			(at 336.55 241.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34957,7 +31829,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 340.36 254 0)
+			(at 340.36 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34966,7 +31838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 340.36 254 0)
+			(at 340.36 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34975,7 +31847,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 340.36 254 0)
+			(at 340.36 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35291,140 +32163,6 @@
 			(project "iCEBrainstorm"
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 186.69 374.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7742b3e9-8e29-4246-83f1-35a59f3ce8a5")
-		(property "Reference" "#PWR048"
-			(at 193.04 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 374.6499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e9abfa0-89e5-4412-ba7f-2d1fdd087ab1")
-		)
-		(instances
-			(project ""
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 304.8 241.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a1dce11-e8b3-4027-b829-693e52e0f910")
-		(property "Reference" "#PWR065"
-			(at 300.99 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 308.61 241.2999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.8 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 304.8 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8fa8c728-c5b3-492c-964e-8b86dc795e22")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -35772,6 +32510,73 @@
 			(project ""
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 372.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8494bfaa-d9b7-46d9-9746-0b1f55d6b8b3")
+		(property "Reference" "#PWR059"
+			(at 148.59 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 372.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2eaa5aef-fd0b-4591-b728-9853ad749e57")
+		)
+		(instances
+			(project "iCEBrainstorm"
+				(path "/a979115e-05e2-465d-a941-b2ab44135948"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -36353,294 +33158,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 304.8 231.14 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b1c3fd6-19c8-43b5-959a-213a74674e96")
-		(property "Reference" "#PWR061"
-			(at 300.99 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 308.61 231.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.8 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 304.8 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87bb43e8-92ec-4585-9c0b-3c83832514fc")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0603,15kΩ")
-		(at 274.32 226.06 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b95aafa-a549-43c5-8a8f-a060a22e129b")
-		(property "Reference" "R17"
-			(at 278.892 225.298 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15kΩ"
-			(at 274.32 226.06 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 274.32 227.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1502T5E_C22809.pdf"
-			(at 274.32 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 15kΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 274.32 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22809"
-			(at 274.32 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "1478337"
-			(at 274.32 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 274.32 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 274.32 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 274.32 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 274.32 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 274.32 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 274.32 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 274.32 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0603WAF1502T5E"
-			(at 274.32 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "15kΩ"
-			(at 274.32 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "100mW"
-			(at 274.32 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 274.32 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "75V"
-			(at 274.32 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 274.32 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 274.32 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 274.32 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b0593421-c0ef-4580-b688-8f1f8e985d2e")
-		)
-		(pin "1"
-			(uuid "0feaa25d-3016-4457-8dd7-d43f13d2be36")
-		)
-		(instances
-			(project ""
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,5.1kΩ")
 		(at 500.38 71.12 270)
 		(mirror x)
@@ -37053,6 +33570,73 @@
 			(project "iCEBrainstorm"
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 367.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "911b0111-5d1c-4ac9-b43f-965949631b78")
+		(property "Reference" "#PWR054"
+			(at 148.59 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 367.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc70cccc-2e8e-47dd-b7b9-d374e2c67045")
+		)
+		(instances
+			(project "iCEBrainstorm"
+				(path "/a979115e-05e2-465d-a941-b2ab44135948"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -37682,17 +34266,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 186.69 372.11 90)
+		(lib_id "PCM_JLCPCB-Resistors:0603,15kΩ")
+		(at 158.75 367.03 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95e451e9-8aaf-4f55-bddc-ae85ef844c06")
-		(property "Reference" "#PWR047"
-			(at 193.04 372.11 0)
+		(uuid "950582d7-9ebb-47c2-a14e-6ee678b024c7")
+		(property "Reference" "R17"
+			(at 163.322 366.014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15kΩ"
+			(at 158.75 367.03 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0603"
+			(at 158.75 365.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37700,17 +34301,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 190.5 372.1099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 372.11 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1502T5E_C22809.pdf"
+			(at 158.75 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37718,8 +34310,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 186.69 372.11 0)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 15kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 158.75 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37727,22 +34319,169 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 372.11 0)
+		(property "LCSC" "C22809"
+			(at 158.75 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Stock" "1478337"
+			(at 158.75 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 158.75 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 158.75 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 158.75 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 158.75 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 158.75 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 158.75 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 158.75 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0603WAF1502T5E"
+			(at 158.75 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "15kΩ"
+			(at 158.75 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "100mW"
+			(at 158.75 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 158.75 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "75V"
+			(at 158.75 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 158.75 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 158.75 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 158.75 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ba9a91c-2af3-4cfa-b2bf-74c2cf74a10a")
 		)
 		(pin "1"
-			(uuid "d77dfb6f-b7f5-4b33-92f1-96234246aa47")
+			(uuid "549dd9ea-b696-4785-9135-03d39273c3d4")
 		)
 		(instances
 			(project "iCEBrainstorm"
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "#PWR047")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -38671,172 +35410,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:LED,0805,Green")
-		(at 356.87 243.84 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0985f30-3001-4eb1-96f3-ac302c3f7cc5")
-		(property "Reference" "D12"
-			(at 359.664 242.824 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Green"
-			(at 360.172 244.602 90)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_0805"
-			(at 356.87 242.062 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806151820_Hubei-KENTO-Elec-KT-0805G_C2297.pdf"
-			(at 356.87 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Emerald 0805 LED Indication - Discrete ROHS"
-			(at 356.87 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2297"
-			(at 356.87 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "2062782"
-			(at 356.87 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.014USD"
-			(at 356.87 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 356.87 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 356.87 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 356.87 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 356.87 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Optoelectronics,Light Emitting Diodes (LED)"
-			(at 356.87 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Hubei KENTO Elec"
-			(at 356.87 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "KT-0805G"
-			(at 356.87 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Emitted Color" "Emerald"
-			(at 356.87 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffcb24fd-a1ab-4c13-9c1b-0c4d9199a5c1")
-		)
-		(pin "2"
-			(uuid "c22d7006-673a-404c-afc7-388e9f0b80ce")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 55.88 365.76 0)
 		(unit 1)
@@ -39430,6 +36003,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 154.94 369.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8480e02-aa76-4926-8901-cbf1db57d39b")
+		(property "Reference" "#PWR055"
+			(at 148.59 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 369.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59c4545b-7b65-4760-9171-76564ae333e2")
+		)
+		(instances
+			(project "iCEBrainstorm"
+				(path "/a979115e-05e2-465d-a941-b2ab44135948"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,1.5kΩ")
 		(at 279.4 166.37 0)
 		(mirror y)
@@ -39647,6 +36287,73 @@
 			(project "iCEBrainstorm"
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 186.69 369.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a901f067-618e-468d-8913-e1cf00e5261d")
+		(property "Reference" "#PWR046"
+			(at 182.88 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 190.5 369.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 186.69 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9374b9e8-c30c-4c84-8efe-d895d19e2384")
+		)
+		(instances
+			(project "iCEBrainstorm"
+				(path "/a979115e-05e2-465d-a941-b2ab44135948"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -40619,227 +37326,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0603,15kΩ")
-		(at 274.32 228.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5b13520-a1e5-41ed-a4df-976c8de0e6f5")
-		(property "Reference" "R18"
-			(at 278.892 227.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15kΩ"
-			(at 274.32 228.6 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 274.32 230.378 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1502T5E_C22809.pdf"
-			(at 274.32 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 15kΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 274.32 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22809"
-			(at 274.32 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "1478337"
-			(at 274.32 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 274.32 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 274.32 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 274.32 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 274.32 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 274.32 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 274.32 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 274.32 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0603WAF1502T5E"
-			(at 274.32 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "15kΩ"
-			(at 274.32 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "100mW"
-			(at 274.32 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 274.32 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "75V"
-			(at 274.32 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 274.32 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 274.32 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 274.32 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f5c1acfb-03df-41fb-831e-87da0dbe95c2")
-		)
-		(pin "1"
-			(uuid "1b749ced-3091-4962-9fdf-15809b4900fe")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 519.43 105.41 0)
 		(mirror y)
@@ -41385,172 +37871,6 @@
 			(project ""
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
 					(reference "PN1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:LED,0805,Green")
-		(at 356.87 238.76 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "baff3e1d-a4a9-4dfe-8a14-7d6da49a6b10")
-		(property "Reference" "D10"
-			(at 359.664 237.744 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Green"
-			(at 360.172 239.522 90)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_0805"
-			(at 356.87 236.982 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806151820_Hubei-KENTO-Elec-KT-0805G_C2297.pdf"
-			(at 356.87 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Emerald 0805 LED Indication - Discrete ROHS"
-			(at 356.87 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2297"
-			(at 356.87 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "2062782"
-			(at 356.87 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.014USD"
-			(at 356.87 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 356.87 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 356.87 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 356.87 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 356.87 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Optoelectronics,Light Emitting Diodes (LED)"
-			(at 356.87 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Hubei KENTO Elec"
-			(at 356.87 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "KT-0805G"
-			(at 356.87 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Emitted Color" "Emerald"
-			(at 356.87 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "185b2223-6030-48ea-8338-396c9f9c1871")
-		)
-		(pin "2"
-			(uuid "9a83f1ad-8857-4089-9a85-d2154609ce66")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -42318,73 +38638,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 304.8 233.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1218cb3-6ec2-4080-8ff8-f79aefb153d3")
-		(property "Reference" "#PWR062"
-			(at 300.99 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 308.61 233.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.8 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 304.8 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "969c2b74-c98e-4e81-b92d-bdcb7c763abd")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,1.5kΩ")
 		(at 193.04 361.95 90)
 		(mirror x)
@@ -42608,7 +38861,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Diodes:LED,0805,Green")
-		(at 356.87 254 270)
+		(at 356.87 241.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42616,7 +38869,7 @@
 		(dnp no)
 		(uuid "c5090bf4-491c-49f1-ab31-ff76281f5aad")
 		(property "Reference" "D13"
-			(at 359.664 252.984 90)
+			(at 359.664 240.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42624,7 +38877,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 360.172 254.762 90)
+			(at 360.172 242.062 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -42632,7 +38885,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:D_0805"
-			(at 356.87 252.222 90)
+			(at 356.87 239.522 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42641,7 +38894,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806151820_Hubei-KENTO-Elec-KT-0805G_C2297.pdf"
-			(at 356.87 254 0)
+			(at 356.87 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42650,7 +38903,7 @@
 			)
 		)
 		(property "Description" "Emerald 0805 LED Indication - Discrete ROHS"
-			(at 356.87 254 0)
+			(at 356.87 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42659,7 +38912,7 @@
 			)
 		)
 		(property "LCSC" "C2297"
-			(at 356.87 254 0)
+			(at 356.87 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42668,7 +38921,7 @@
 			)
 		)
 		(property "Stock" "2062782"
-			(at 356.87 254 0)
+			(at 356.87 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42677,7 +38930,7 @@
 			)
 		)
 		(property "Price" "0.014USD"
-			(at 356.87 254 0)
+			(at 356.87 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42686,7 +38939,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 356.87 254 0)
+			(at 356.87 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42695,7 +38948,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 356.87 254 0)
+			(at 356.87 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42704,7 +38957,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 356.87 254 0)
+			(at 356.87 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42713,7 +38966,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 356.87 254 0)
+			(at 356.87 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42722,7 +38975,7 @@
 			)
 		)
 		(property "Category" "Optoelectronics,Light Emitting Diodes (LED)"
-			(at 356.87 254 0)
+			(at 356.87 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42731,7 +38984,7 @@
 			)
 		)
 		(property "Manufacturer" "Hubei KENTO Elec"
-			(at 356.87 254 0)
+			(at 356.87 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42740,7 +38993,7 @@
 			)
 		)
 		(property "Part" "KT-0805G"
-			(at 356.87 254 0)
+			(at 356.87 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42749,7 +39002,7 @@
 			)
 		)
 		(property "Emitted Color" "Emerald"
-			(at 356.87 254 0)
+			(at 356.87 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43201,227 +39454,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0603,1.5kΩ")
-		(at 344.17 241.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c99b33fb-6050-4bae-8239-b628df5ccdd1")
-		(property "Reference" "R37"
-			(at 348.742 240.284 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.5kΩ"
-			(at 344.17 241.3 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 344.17 239.522 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1501T5E_C22843.pdf"
-			(at 344.17 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 1.5kΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 344.17 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22843"
-			(at 344.17 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "2582969"
-			(at 344.17 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 344.17 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 344.17 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 344.17 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 344.17 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 344.17 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 344.17 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 344.17 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0603WAF1501T5E"
-			(at 344.17 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "1.5kΩ"
-			(at 344.17 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "100mW"
-			(at 344.17 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 344.17 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "75V"
-			(at 344.17 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 344.17 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 344.17 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 344.17 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "176cfa16-0248-4610-8120-33aaa8d6d343")
-		)
-		(pin "1"
-			(uuid "54e1227f-d4f3-41b2-a433-e213512ef5b2")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 365.76 113.03 0)
 		(unit 1)
@@ -43488,42 +39520,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 266.7 231.14 0)
+		(lib_id "PCM_JLCPCB-Resistors:0603,15kΩ")
+		(at 158.75 372.11 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cdbffe29-6a4c-44b1-9d10-570bb792eafd")
-		(property "Reference" "JP6"
-			(at 270.256 230.124 0)
+		(uuid "cafa48e7-4527-4073-89ed-e287cc68e71c")
+		(property "Reference" "R19"
+			(at 163.322 371.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 266.7 227.33 0)
+		(property "Value" "15kΩ"
+			(at 158.75 372.11 90)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 266.7 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 266.7 231.14 0)
+		(property "Footprint" "PCM_JLCPCB:R_0603"
+			(at 158.75 370.332 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43531,8 +39555,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 266.7 231.14 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1502T5E_C22809.pdf"
+			(at 158.75 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43540,16 +39564,178 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "ca838eb9-bffa-4f70-b734-4fedcd5a086e")
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 15kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 158.75 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22809"
+			(at 158.75 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "1478337"
+			(at 158.75 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 158.75 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 158.75 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 158.75 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 158.75 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 158.75 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 158.75 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 158.75 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0603WAF1502T5E"
+			(at 158.75 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "15kΩ"
+			(at 158.75 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "100mW"
+			(at 158.75 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 158.75 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "75V"
+			(at 158.75 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 158.75 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 158.75 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 158.75 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "0ec4d9f5-9841-400e-8231-00876917f006")
+			(uuid "ebbac7ad-ee46-4459-bee1-a5a63022078a")
+		)
+		(pin "1"
+			(uuid "fc0d9547-0d78-41c9-91ac-8e16bad047ed")
 		)
 		(instances
 			(project "iCEBrainstorm"
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "JP6")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -43924,448 +40110,6 @@
 			(project "iCEBrainstorm"
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
 					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0603,1.5kΩ")
-		(at 344.17 243.84 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cfa4062e-5e47-40bc-a1d2-4ad6afdf69c2")
-		(property "Reference" "R38"
-			(at 348.742 242.824 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.5kΩ"
-			(at 344.17 243.84 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 344.17 242.062 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1501T5E_C22843.pdf"
-			(at 344.17 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 1.5kΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 344.17 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22843"
-			(at 344.17 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "2582969"
-			(at 344.17 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 344.17 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 344.17 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 344.17 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 344.17 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 344.17 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 344.17 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 344.17 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0603WAF1501T5E"
-			(at 344.17 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "1.5kΩ"
-			(at 344.17 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "100mW"
-			(at 344.17 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 344.17 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "75V"
-			(at 344.17 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 344.17 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 344.17 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 344.17 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e5c22b4a-d2b8-4a22-892f-b4d1ad6e94e1")
-		)
-		(pin "1"
-			(uuid "6fba310f-bb32-4441-a1b9-2c5d5bfa6770")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0603,15kΩ")
-		(at 274.32 236.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d090c8d3-f243-4196-8b99-46d61c34792f")
-		(property "Reference" "R21"
-			(at 278.892 235.458 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15kΩ"
-			(at 274.32 236.22 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 274.32 237.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1502T5E_C22809.pdf"
-			(at 274.32 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 15kΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 274.32 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22809"
-			(at 274.32 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "1478337"
-			(at 274.32 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 274.32 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 274.32 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 274.32 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 274.32 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 274.32 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 274.32 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 274.32 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0603WAF1502T5E"
-			(at 274.32 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "15kΩ"
-			(at 274.32 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "100mW"
-			(at 274.32 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 274.32 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "75V"
-			(at 274.32 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 274.32 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 274.32 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 274.32 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "645240ce-139e-474d-9272-2be4bc6d55bd")
-		)
-		(pin "1"
-			(uuid "d44453aa-4788-4fb2-8914-2420c66f6da3")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -45616,73 +41360,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 304.8 236.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da90cc7c-4dea-43ac-b3ec-928ec975fd5a")
-		(property "Reference" "#PWR063"
-			(at 300.99 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 308.61 236.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.8 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 304.8 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "760f7afa-ad0e-4e76-960e-d02085b35fc2")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,15kΩ")
 		(at 153.67 361.95 90)
 		(mirror x)
@@ -46678,92 +42355,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x08_Pin")
-		(at 278.13 373.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3a2542e-928d-48d2-a6e5-8497de153a01")
-		(property "Reference" "J5"
-			(at 278.765 360.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x08_Pin"
-			(at 278.765 363.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 278.13 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 278.13 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 278.13 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "4670bc36-1f7a-4d73-8972-2dc4fcc63ad9")
-		)
-		(pin "4"
-			(uuid "c497a7e1-2713-43f7-af59-cf843c74b4a7")
-		)
-		(pin "8"
-			(uuid "ac13f124-1e26-41ba-befd-28b0970f5e2f")
-		)
-		(pin "7"
-			(uuid "aad8a84c-6982-4451-90af-b7fcf0980dae")
-		)
-		(pin "6"
-			(uuid "e5b8ce17-cccf-4a50-8ae0-f1a27ab71d13")
-		)
-		(pin "1"
-			(uuid "a9e9adee-379d-4643-8c4b-68cfc5c1e8cd")
-		)
-		(pin "2"
-			(uuid "3ec33585-80f1-4281-86d9-baa691cce47e")
-		)
-		(pin "3"
-			(uuid "e092c27c-8f32-480d-8044-9ab6ccd362c0")
-		)
-		(instances
-			(project ""
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,1.5kΩ")
 		(at 55.88 361.95 0)
 		(unit 1)
@@ -46981,74 +42572,6 @@
 			(project ""
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 336.55 231.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "e54b3fc2-45dc-4438-9216-1b1074508b9a")
-		(property "Reference" "JP12"
-			(at 340.106 230.124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 336.55 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 336.55 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 336.55 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 336.55 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9365718a-daaf-46a3-9e76-12ac67846dac")
-		)
-		(pin "2"
-			(uuid "15390d0e-3250-4381-a9f5-3e749543ffdd")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "JP12")
 					(unit 1)
 				)
 			)
@@ -47707,227 +43230,6 @@
 			(project ""
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0603,15kΩ")
-		(at 274.32 233.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec089e75-c202-429d-a9f1-20fdaa126ce2")
-		(property "Reference" "R20"
-			(at 278.892 232.918 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15kΩ"
-			(at 274.32 233.68 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 274.32 235.458 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1502T5E_C22809.pdf"
-			(at 274.32 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 15kΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 274.32 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22809"
-			(at 274.32 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "1478337"
-			(at 274.32 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 274.32 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 274.32 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 274.32 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 274.32 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 274.32 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 274.32 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 274.32 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0603WAF1502T5E"
-			(at 274.32 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "15kΩ"
-			(at 274.32 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "100mW"
-			(at 274.32 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 274.32 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "75V"
-			(at 274.32 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 274.32 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 274.32 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 274.32 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f252bf87-94cc-4f21-8b02-4ea88a6147ab")
-		)
-		(pin "1"
-			(uuid "d5db9255-c2fb-4423-9080-6ea6ff498863")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R20")
 					(unit 1)
 				)
 			)
