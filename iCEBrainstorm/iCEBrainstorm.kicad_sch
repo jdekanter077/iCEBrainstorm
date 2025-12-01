@@ -13454,7 +13454,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 175.26) (xy 306.07 175.26)
+			(xy 279.4 175.26) (xy 281.94 175.26)
 		)
 		(stroke
 			(width 0)
@@ -14694,6 +14694,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 175.26) (xy 279.4 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d711ccd-dd1d-4842-8d8b-a12a8fd3515a")
+	)
+	(wire
+		(pts
 			(xy 200.66 356.87) (xy 196.85 356.87)
 		)
 		(stroke
@@ -14941,6 +14951,16 @@
 			(type default)
 		)
 		(uuid "a8523682-5986-49ad-a65f-7ddbb1e4cbc1")
+	)
+	(wire
+		(pts
+			(xy 289.56 175.26) (xy 306.07 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a88e7382-7380-4f67-b8d6-dd66acbbec4e")
 	)
 	(wire
 		(pts
@@ -15501,16 +15521,6 @@
 			(type default)
 		)
 		(uuid "ebd6a07e-3399-4296-94a4-c5a8df43d8b9")
-	)
-	(wire
-		(pts
-			(xy 278.13 175.26) (xy 279.4 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebecd649-1547-4bea-94ac-8c3f4c7bbc9f")
 	)
 	(wire
 		(pts
@@ -17815,228 +17825,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0603,68Ω")
-		(at 274.32 175.26 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0038757e-9f22-45c9-b648-35af6fe2325d")
-		(property "Reference" "R17"
-			(at 274.32 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "68Ω"
-			(at 274.32 175.26 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 274.32 173.482 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010030_UNI-ROYAL-Uniroyal-Elec-0603WAF680JT5E_C27592.pdf"
-			(at 274.32 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 68Ω 0603 Chip Resistor - Surface Mount ROHS"
-			(at 274.32 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C27592"
-			(at 274.32 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "1424068"
-			(at 274.32 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 274.32 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 274.32 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 274.32 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 274.32 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 274.32 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 274.32 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 274.32 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0603WAF680JT5E"
-			(at 274.32 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "68Ω"
-			(at 274.32 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "100mW"
-			(at 274.32 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 274.32 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "75V"
-			(at 274.32 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 274.32 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 274.32 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 274.32 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a3100c09-5878-46a9-b4a2-7d9352c9222d")
-		)
-		(pin "1"
-			(uuid "2eb5d895-e9c2-4cc2-950a-a84dc2000533")
-		)
-		(instances
-			(project "iCEBrainstorm"
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,15kΩ")
 		(at 274.32 241.3 90)
 		(unit 1)
@@ -18045,7 +17833,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00bee4bb-29af-48cc-a316-97a907b0652c")
-		(property "Reference" "R24"
+		(property "Reference" "R23"
 			(at 278.892 240.538 90)
 			(effects
 				(font
@@ -18251,7 +18039,7 @@
 		(instances
 			(project "iCEBrainstorm"
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R24")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -18625,7 +18413,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02e38b9c-0ae1-4c70-9124-066baaf9e29d")
-		(property "Reference" "R23"
+		(property "Reference" "R22"
 			(at 278.892 237.998 90)
 			(effects
 				(font
@@ -18831,7 +18619,7 @@
 		(instances
 			(project "iCEBrainstorm"
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R23")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -21641,7 +21429,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13e4182b-659b-4844-bafd-469f982f1d82")
-		(property "Reference" "R25"
+		(property "Reference" "R24"
 			(at 278.892 243.078 90)
 			(effects
 				(font
@@ -21847,7 +21635,7 @@
 		(instances
 			(project "iCEBrainstorm"
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R25")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -26748,7 +26536,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37b0ffed-d43e-4419-8812-81f0193d76d1")
-		(property "Reference" "R20"
+		(property "Reference" "R19"
 			(at 278.892 230.378 90)
 			(effects
 				(font
@@ -26954,7 +26742,7 @@
 		(instances
 			(project "iCEBrainstorm"
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R20")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -33958,7 +33746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "690decd3-e8f4-4756-aa1a-05a86daa88c5")
-		(property "Reference" "R27"
+		(property "Reference" "R26"
 			(at 282.194 172.72 90)
 			(effects
 				(font
@@ -34165,7 +33953,7 @@
 		(instances
 			(project ""
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R27")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -35990,6 +35778,228 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0603,68Ω")
+		(at 285.75 175.26 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "862aa6ba-c6df-4f77-9987-0a5b2c3f31ab")
+		(property "Reference" "R27"
+			(at 280.924 176.276 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "68Ω"
+			(at 285.75 175.26 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0603"
+			(at 285.75 173.482 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010030_UNI-ROYAL-Uniroyal-Elec-0603WAF680JT5E_C27592.pdf"
+			(at 285.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 68Ω 0603 Chip Resistor - Surface Mount ROHS"
+			(at 285.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27592"
+			(at 285.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "1424068"
+			(at 285.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 285.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 285.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 285.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 285.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 285.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 285.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 285.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0603WAF680JT5E"
+			(at 285.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "68Ω"
+			(at 285.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "100mW"
+			(at 285.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 285.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "75V"
+			(at 285.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 285.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 285.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 285.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aeeb347f-ea3e-4f46-95ad-21b4132f6e2c")
+		)
+		(pin "1"
+			(uuid "5c3a3ad8-a3e8-457b-832d-2d9066219f2d")
+		)
+		(instances
+			(project "iCEBrainstorm"
+				(path "/a979115e-05e2-465d-a941-b2ab44135948"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,5.1kΩ")
 		(at 48.26 88.9 90)
 		(unit 1)
@@ -36418,7 +36428,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b95aafa-a549-43c5-8a8f-a060a22e129b")
-		(property "Reference" "R18"
+		(property "Reference" "R17"
 			(at 278.892 225.298 90)
 			(effects
 				(font
@@ -36624,7 +36634,7 @@
 		(instances
 			(project ""
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R18")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -39429,7 +39439,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "a8659404-9e5f-4270-9977-e922442af3cd")
-		(property "Reference" "R26"
+		(property "Reference" "R25"
 			(at 278.384 172.72 90)
 			(effects
 				(font
@@ -39636,7 +39646,7 @@
 		(instances
 			(project "iCEBrainstorm"
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R26")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -40617,7 +40627,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5b13520-a1e5-41ed-a4df-976c8de0e6f5")
-		(property "Reference" "R19"
+		(property "Reference" "R18"
 			(at 278.892 227.838 90)
 			(effects
 				(font
@@ -40823,7 +40833,7 @@
 		(instances
 			(project "iCEBrainstorm"
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R19")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -44149,7 +44159,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d090c8d3-f243-4196-8b99-46d61c34792f")
-		(property "Reference" "R22"
+		(property "Reference" "R21"
 			(at 278.892 235.458 90)
 			(effects
 				(font
@@ -44355,7 +44365,7 @@
 		(instances
 			(project "iCEBrainstorm"
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R22")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -44893,10 +44903,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d6e485a3-2419-4232-819a-8b1a30f87475")
 		(property "Reference" "R28"
-			(at 288.29 168.91 90)
+			(at 292.862 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47712,7 +47721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec089e75-c202-429d-a9f1-20fdaa126ce2")
-		(property "Reference" "R21"
+		(property "Reference" "R20"
 			(at 278.892 232.918 90)
 			(effects
 				(font
@@ -47918,7 +47927,7 @@
 		(instances
 			(project "iCEBrainstorm"
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "R21")
+					(reference "R20")
 					(unit 1)
 				)
 			)
