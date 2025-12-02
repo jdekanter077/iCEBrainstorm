@@ -12729,7 +12729,7 @@
 	)
 	(text "GPIO"
 		(exclude_from_sim no)
-		(at 269.494 283.972 0)
+		(at 94.234 90.932 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12766,16 +12766,6 @@
 			)
 		)
 		(uuid "0ff5a0a2-bf0c-4c27-8985-22c9c183d444")
-	)
-	(text "just make a place for 2,\nif there are any mistakes"
-		(exclude_from_sim no)
-		(at 270.51 159.766 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1f83a0c5-3dc3-4c17-a0e0-92099c172ba2")
 	)
 	(text "Programmer SWD Port"
 		(exclude_from_sim no)
@@ -12899,6 +12889,16 @@
 		)
 		(uuid "984f0f45-41f1-4d9a-910a-c48efa01d132")
 	)
+	(text "just make a place for 2,\nif there are any mistakes"
+		(exclude_from_sim no)
+		(at 491.49 121.666 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a61bc0c8-be16-4167-ad77-9ebbece8d30c")
+	)
 	(text "STATUS LED'S"
 		(exclude_from_sim no)
 		(at 30.48 341.63 0)
@@ -12931,7 +12931,7 @@
 	)
 	(text "using the RCC MCO to output \nthe Clock through this pin"
 		(exclude_from_sim no)
-		(at 116.84 113.03 0)
+		(at 134.874 53.594 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12982,6 +12982,12 @@
 		(uuid "15571cd0-930c-43b6-a16b-3402cd3cf577")
 	)
 	(junction
+		(at 504.19 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "158e13b8-47ac-4970-ad15-fcf9304fac21")
+	)
+	(junction
 		(at 132.08 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13000,12 +13006,6 @@
 		(uuid "2820a187-644f-4f9b-b0df-e53afe7d63f7")
 	)
 	(junction
-		(at 279.4 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29bc030d-1b0f-4d9e-92db-a73d64eebde3")
-	)
-	(junction
 		(at 196.85 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13022,6 +13022,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35a7c428-2ce0-49af-8e7f-770fbefc6206")
+	)
+	(junction
+		(at 500.38 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37df080a-56a4-4a76-ae80-4ebd6db1018b")
 	)
 	(junction
 		(at 176.53 171.45)
@@ -13058,12 +13064,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "522bbbbf-57a6-441f-8346-72116b10d4ac")
-	)
-	(junction
-		(at 283.21 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56086c0e-974f-47bd-8716-29b0e0f37395")
 	)
 	(junction
 		(at 318.77 30.48)
@@ -13282,12 +13282,6 @@
 		(uuid "ce9b4b47-16cf-43ac-9bfd-46042ca66ed6")
 	)
 	(junction
-		(at 283.21 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d670791e-7954-4299-b5b0-b027316ec283")
-	)
-	(junction
 		(at 340.36 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13316,6 +13310,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f28bfa89-7faf-4633-a0f2-3e7e51b5784a")
+	)
+	(junction
+		(at 504.19 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3f50492-60b0-4c9f-8e12-1f7abb5382db")
 	)
 	(junction
 		(at 114.3 35.56)
@@ -13400,16 +13400,6 @@
 	(no_connect
 		(at 273.05 39.37)
 		(uuid "fe108140-e19d-4197-b064-9e24ec1e9a3c")
-	)
-	(wire
-		(pts
-			(xy 279.4 175.26) (xy 281.94 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01a57c31-684d-4ee8-8557-b27ad3805cad")
 	)
 	(wire
 		(pts
@@ -13510,6 +13500,16 @@
 			(type default)
 		)
 		(uuid "0bc5de13-485b-459e-ba99-2742117dd0b3")
+	)
+	(wire
+		(pts
+			(xy 289.56 87.63) (xy 308.61 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c2cf952-30b2-4f6e-b514-7a6bb5c9b7f5")
 	)
 	(wire
 		(pts
@@ -13693,6 +13693,26 @@
 	)
 	(wire
 		(pts
+			(xy 513.08 134.62) (xy 518.16 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a07b811-c99a-4587-88f7-b2e502bcfc1f")
+	)
+	(wire
+		(pts
+			(xy 510.54 137.16) (xy 518.16 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a28d68b-a6e4-4c69-ae42-94ab89134dbc")
+	)
+	(wire
+		(pts
 			(xy 44.45 101.6) (xy 44.45 99.06)
 		)
 		(stroke
@@ -13700,6 +13720,16 @@
 			(type default)
 		)
 		(uuid "2a838cc3-00c8-4a25-9b03-06cdb8c3aac3")
+	)
+	(wire
+		(pts
+			(xy 500.38 124.46) (xy 504.19 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30e367fb-a5c2-46ac-95dc-e1798891d8b8")
 	)
 	(wire
 		(pts
@@ -13720,6 +13750,16 @@
 			(type default)
 		)
 		(uuid "313eebd4-7252-4481-96c2-3f3d1fa61579")
+	)
+	(wire
+		(pts
+			(xy 504.19 124.46) (xy 518.16 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c6d9af-4cb8-4b04-956b-c1b54a9954b2")
 	)
 	(wire
 		(pts
@@ -13793,6 +13833,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 177.8) (xy 306.07 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3923e84d-fe59-40f8-a43c-2c65c0fd734c")
+	)
+	(wire
+		(pts
 			(xy 165.1 148.59) (xy 166.37 148.59)
 		)
 		(stroke
@@ -13833,6 +13883,16 @@
 	)
 	(wire
 		(pts
+			(xy 392.43 77.47) (xy 407.67 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc7d91e-28a9-46ab-837c-9d84a1be7108")
+	)
+	(wire
+		(pts
 			(xy 83.82 322.58) (xy 86.36 322.58)
 		)
 		(stroke
@@ -13860,16 +13920,6 @@
 			(type default)
 		)
 		(uuid "41327949-3cf4-418f-96f7-758ebf92fdd3")
-	)
-	(wire
-		(pts
-			(xy 292.1 170.18) (xy 306.07 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42dfc23e-af32-4318-b3ac-3750fe357384")
 	)
 	(wire
 		(pts
@@ -13933,6 +13983,16 @@
 	)
 	(wire
 		(pts
+			(xy 491.49 137.16) (xy 500.38 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ae2c01-9042-4aa9-9b51-27835ac920c9")
+	)
+	(wire
+		(pts
 			(xy 36.83 383.54) (xy 36.83 381)
 		)
 		(stroke
@@ -13980,6 +14040,16 @@
 			(type default)
 		)
 		(uuid "4d1c771b-0e4b-4dd4-bd5a-3121b5aa73dd")
+	)
+	(wire
+		(pts
+			(xy 504.19 132.08) (xy 504.19 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7be3e2-ba8f-43ef-9bfe-587d3d431ecb")
 	)
 	(wire
 		(pts
@@ -14033,16 +14103,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 170.18) (xy 283.21 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "513f60cb-a817-4c52-991e-b9acc6b03101")
-	)
-	(wire
-		(pts
 			(xy 172.72 53.34) (xy 172.72 54.61)
 		)
 		(stroke
@@ -14050,26 +14110,6 @@
 			(type default)
 		)
 		(uuid "517ad455-bb02-4189-afc1-26230e9cbddf")
-	)
-	(wire
-		(pts
-			(xy 299.72 69.85) (xy 308.61 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51ac2b64-1ac7-4333-bbf2-001087aff7e9")
-	)
-	(wire
-		(pts
-			(xy 299.72 82.55) (xy 308.61 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "524de8b9-55b5-45cc-be4f-f1882cad6ec7")
 	)
 	(wire
 		(pts
@@ -14253,6 +14293,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 82.55) (xy 308.61 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67387d3f-fdbb-46a1-bd5f-a18ae9466d3d")
+	)
+	(wire
+		(pts
 			(xy 534.67 208.28) (xy 539.75 208.28)
 		)
 		(stroke
@@ -14260,16 +14310,6 @@
 			(type default)
 		)
 		(uuid "69879b3e-d169-4278-8f25-799501c1a4a2")
-	)
-	(wire
-		(pts
-			(xy 279.4 170.18) (xy 279.4 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b648881-7a2d-48ab-8ccc-c938ad805d53")
 	)
 	(wire
 		(pts
@@ -14333,16 +14373,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 172.72) (xy 283.21 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ffe9f88-8ca4-4620-b164-a9b8f260674a")
-	)
-	(wire
-		(pts
 			(xy 148.59 161.29) (xy 154.94 161.29)
 		)
 		(stroke
@@ -14350,16 +14380,6 @@
 			(type default)
 		)
 		(uuid "70cc49d1-4542-4ef2-9c8e-596885c7110d")
-	)
-	(wire
-		(pts
-			(xy 283.21 162.56) (xy 292.1 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71a0392b-d53e-4b0e-923b-7c0763504b11")
 	)
 	(wire
 		(pts
@@ -14420,6 +14440,16 @@
 			(type default)
 		)
 		(uuid "78ed4fc5-3e27-4dbb-8154-ee709acbb465")
+	)
+	(wire
+		(pts
+			(xy 289.56 85.09) (xy 308.61 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b7e7254-3460-4f7d-8442-64de57524b80")
 	)
 	(wire
 		(pts
@@ -14500,16 +14530,6 @@
 			(type default)
 		)
 		(uuid "83e0176d-6e11-423f-8631-2b74a18a1c56")
-	)
-	(wire
-		(pts
-			(xy 292.1 162.56) (xy 292.1 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "842dc1be-f74e-419c-92cb-1f2a87094e7d")
 	)
 	(wire
 		(pts
@@ -14623,16 +14643,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 175.26) (xy 279.4 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d711ccd-dd1d-4842-8d8b-a12a8fd3515a")
-	)
-	(wire
-		(pts
 			(xy 200.66 356.87) (xy 196.85 356.87)
 		)
 		(stroke
@@ -14663,6 +14673,16 @@
 	)
 	(wire
 		(pts
+			(xy 491.49 134.62) (xy 504.19 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93421a3c-0198-45bb-ab2f-78476864203e")
+	)
+	(wire
+		(pts
 			(xy 181.61 171.45) (xy 176.53 171.45)
 		)
 		(stroke
@@ -14680,6 +14700,16 @@
 			(type default)
 		)
 		(uuid "9781d1a0-6a72-4c72-bb2b-45b50997d8e5")
+	)
+	(wire
+		(pts
+			(xy 500.38 132.08) (xy 500.38 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d1b167-1731-4262-ac7a-6e8606dfb249")
 	)
 	(wire
 		(pts
@@ -14753,13 +14783,13 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 74.93) (xy 308.61 74.93)
+			(xy 500.38 137.16) (xy 502.92 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d982c68-82aa-4956-b5e4-f4b031dc1798")
+		(uuid "9c9f9a09-7dae-4ef6-aa10-3ebd82e84bf5")
 	)
 	(wire
 		(pts
@@ -14893,16 +14923,6 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 175.26) (xy 306.07 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a88e7382-7380-4f67-b8d6-dd66acbbec4e")
-	)
-	(wire
-		(pts
 			(xy 519.43 101.6) (xy 519.43 105.41)
 		)
 		(stroke
@@ -14910,16 +14930,6 @@
 			(type default)
 		)
 		(uuid "a8cbacd5-d823-4950-8240-04a656db5ce9")
-	)
-	(wire
-		(pts
-			(xy 292.1 87.63) (xy 308.61 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9558ec4-5066-4fba-ae8e-fb7408d43081")
 	)
 	(wire
 		(pts
@@ -15010,16 +15020,6 @@
 			(type default)
 		)
 		(uuid "b52bce4a-c168-4101-b3a9-45ad307b8d88")
-	)
-	(wire
-		(pts
-			(xy 279.4 162.56) (xy 283.21 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b56fab1d-b685-460a-8c90-aca7d08e49dc")
 	)
 	(wire
 		(pts
@@ -15193,16 +15193,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 172.72) (xy 306.07 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb8e7a14-ffe0-4377-ab2f-3df1baa49c9b")
-	)
-	(wire
-		(pts
 			(xy 491.49 63.5) (xy 504.19 63.5)
 		)
 		(stroke
@@ -15210,6 +15200,16 @@
 			(type default)
 		)
 		(uuid "ccee500f-6ec5-4fd1-be70-d6c2a34b9641")
+	)
+	(wire
+		(pts
+			(xy 400.05 69.85) (xy 407.67 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce187660-fda2-40ac-9c09-805aea9fa628")
 	)
 	(wire
 		(pts
@@ -15243,13 +15243,13 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 172.72) (xy 284.48 172.72)
+			(xy 392.43 82.55) (xy 407.67 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d13b4cf1-bc0f-4160-9b33-3f6f3dcdfe3d")
+		(uuid "d0ecb8d1-eb3a-4b8c-821a-142f976da317")
 	)
 	(wire
 		(pts
@@ -15293,16 +15293,6 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 80.01) (xy 308.61 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d57d01cd-c16d-4d29-9c11-67914ef11617")
-	)
-	(wire
-		(pts
 			(xy 45.72 81.28) (xy 57.15 81.28)
 		)
 		(stroke
@@ -15320,6 +15310,16 @@
 			(type default)
 		)
 		(uuid "d727cec1-450a-4163-a0bb-d82ca05527b8")
+	)
+	(wire
+		(pts
+			(xy 504.19 134.62) (xy 505.46 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d775a5f9-1ed1-4efc-be0a-a5410780c993")
 	)
 	(wire
 		(pts
@@ -15380,16 +15380,6 @@
 			(type default)
 		)
 		(uuid "e4ccfc2a-abd1-4eb6-a22a-729efe17a1d2")
-	)
-	(wire
-		(pts
-			(xy 299.72 77.47) (xy 308.61 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e547edc3-53b8-4864-80df-16146d904056")
 	)
 	(wire
 		(pts
@@ -15483,16 +15473,6 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 72.39) (xy 308.61 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbe16b6d-ae6e-4853-a04c-7ae4bdaeb601")
-	)
-	(wire
-		(pts
 			(xy 340.36 226.06) (xy 340.36 228.6)
 		)
 		(stroke
@@ -15513,6 +15493,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 90.17) (xy 308.61 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff92b335-62d7-4f88-b55c-2f6a6c0ea9d6")
+	)
+	(wire
+		(pts
 			(xy 25.4 373.38) (xy 27.94 373.38)
 		)
 		(stroke
@@ -15530,16 +15520,6 @@
 			(justify right bottom)
 		)
 		(uuid "009a442c-7970-499e-b56b-eef58179b809")
-	)
-	(label "PC13"
-		(at 280.67 311.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "04309dbc-cb92-4e5a-818d-1ee53e21d29a")
 	)
 	(label "I2C1_SDA"
 		(at 317.5 274.32 0)
@@ -15571,26 +15551,6 @@
 		)
 		(uuid "06a8a38e-0cdc-487c-bbdf-b53510c84127")
 	)
-	(label "OUT2"
-		(at 407.67 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0876ad71-46c8-4074-81ea-fe41ad956f71")
-	)
-	(label "PC4"
-		(at 144.78 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "08929a5b-201b-46bf-9862-a9b43c260c78")
-	)
 	(label "I2S5_WS"
 		(at 185.42 107.95 0)
 		(effects
@@ -15610,6 +15570,16 @@
 			(justify left bottom)
 		)
 		(uuid "0b854a36-1060-4690-aa7b-87607a0779e4")
+	)
+	(label "OUT3"
+		(at 308.61 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0d3aa1af-ef15-4da4-bfe6-8c54e75c3fb9")
 	)
 	(label "FPGA_SPI_SO"
 		(at 387.35 189.23 0)
@@ -15640,6 +15610,16 @@
 			(justify left bottom)
 		)
 		(uuid "10d2e90a-161a-4408-9d9c-13a268e6075a")
+	)
+	(label "IN0"
+		(at 289.56 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "14b8516b-d310-488f-b068-b490d0124498")
 	)
 	(label "I2C1_SCL"
 		(at 504.19 248.92 180)
@@ -15701,15 +15681,15 @@
 		)
 		(uuid "1d2654fe-b5b2-419a-aa92-b00f8269fffe")
 	)
-	(label "OUT3"
-		(at 407.67 67.31 180)
+	(label "PC0"
+		(at 105.41 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "21f395b2-35f4-40df-8a68-dca038db2d0f")
+		(uuid "29dba678-f675-4e60-ae03-787c86e88615")
 	)
 	(label "USART2_RX"
 		(at 317.5 283.21 0)
@@ -15730,6 +15710,16 @@
 			(justify left bottom)
 		)
 		(uuid "2c9f1589-14f6-4a1c-9584-b005e5c31429")
+	)
+	(label "PB9"
+		(at 185.42 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cf11820-c132-42ef-b0d1-d513fd289468")
 	)
 	(label "USB_D+"
 		(at 185.42 92.71 0)
@@ -15771,6 +15761,36 @@
 		)
 		(uuid "3844d124-cb94-471f-9710-720593bce9f9")
 	)
+	(label "PC15"
+		(at 105.41 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "394e337d-1512-49e1-a931-159ecd912191")
+	)
+	(label "FUPP"
+		(at 518.16 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "395b934c-e8b1-4766-b3ca-76985bce9eed")
+	)
+	(label "PA1"
+		(at 105.41 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "405fd98c-4555-4eef-8175-8970b643e4e8")
+	)
 	(label "USART1_TX"
 		(at 185.42 85.09 0)
 		(effects
@@ -15790,6 +15810,16 @@
 			(justify right bottom)
 		)
 		(uuid "44292445-6e71-447e-b37f-406662f8c7d7")
+	)
+	(label "PA1"
+		(at 185.42 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4564ec05-23a7-4a7d-b8f4-5369ee87d9e6")
 	)
 	(label "USB_D+"
 		(at 44.45 101.6 0)
@@ -15811,6 +15841,16 @@
 		)
 		(uuid "462d9fc3-5361-4b19-8633-8c070c409913")
 	)
+	(label "FUD-"
+		(at 407.67 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "485f1abb-0f84-4818-9f32-54cac9647f33")
+	)
 	(label "OUT_STM"
 		(at 185.42 118.11 0)
 		(effects
@@ -15831,16 +15871,6 @@
 		)
 		(uuid "48956e48-5105-48eb-9f75-c72cbc88b7d4")
 	)
-	(label "FPGA_GLOBAL_6"
-		(at 316.23 318.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "48e6a146-56f7-4bd4-8ce5-350df9766c8f")
-	)
 	(label "FPGA_GLOBAL_1"
 		(at 185.42 82.55 0)
 		(effects
@@ -15851,15 +15881,15 @@
 		)
 		(uuid "48fb6851-9f9a-4ae6-b698-460f0201e73c")
 	)
-	(label "BTN0"
-		(at 308.61 90.17 180)
+	(label "PC10"
+		(at 105.41 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "493c2919-965a-447a-9461-ab3bbd5d1a19")
+		(uuid "4df0da39-fbfc-4fdd-a3f3-b70e2ece2294")
 	)
 	(label "FPGA_SPI_SCK"
 		(at 285.75 190.5 180)
@@ -15890,16 +15920,6 @@
 			(justify right bottom)
 		)
 		(uuid "5276cef9-7a3a-46ff-9546-35fab7e33855")
-	)
-	(label "PC5"
-		(at 144.78 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "52cdb66a-684b-4827-ab38-49d4c7f2b46c")
 	)
 	(label "BTN0"
 		(at 402.59 255.27 0)
@@ -15941,16 +15961,6 @@
 		)
 		(uuid "5a339b30-8517-4c53-8fa6-7d1e8ee6aa89")
 	)
-	(label "USART1_RX"
-		(at 299.72 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5b97dbb2-d39f-4a75-822b-94892eec69bb")
-	)
 	(label "FPGA_NRST"
 		(at 288.29 31.75 0)
 		(effects
@@ -15960,6 +15970,16 @@
 			(justify left bottom)
 		)
 		(uuid "5bf6e328-2d38-44fe-b1e5-b51ec02beff0")
+	)
+	(label "PC3"
+		(at 105.41 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d0aebae-8660-4742-977c-c3f1ca66f7de")
 	)
 	(label "RGB0"
 		(at 308.61 100.33 180)
@@ -15981,6 +16001,46 @@
 		)
 		(uuid "5e5e16de-0954-468b-a615-705bb34a2a93")
 	)
+	(label "IN1"
+		(at 289.56 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e6adeb7-739a-4cf1-bd00-b235003f1ebf")
+	)
+	(label "OUT0"
+		(at 308.61 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "60198920-0af0-451f-a0d3-15d8cc657fde")
+	)
+	(label "PD2"
+		(at 105.41 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6058c123-7e1c-4e0c-a624-cec3a8b7d235")
+	)
+	(label "FUD+"
+		(at 407.67 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "610ddbcc-dffd-4968-b3a3-975f59864cf3")
+	)
 	(label "I2C1_SCL"
 		(at 317.5 271.78 0)
 		(effects
@@ -15990,16 +16050,6 @@
 			(justify left bottom)
 		)
 		(uuid "61a21477-1e39-4060-b7b3-e08aa9dd0c67")
-	)
-	(label "PC7"
-		(at 280.67 295.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "61c9ea3b-3d23-4fd5-a3e1-e577904da25d")
 	)
 	(label "FPGA_NRST"
 		(at 297.18 152.4 180)
@@ -16011,15 +16061,15 @@
 		)
 		(uuid "62df6195-7eed-4faf-8f22-b92d2281ad9d")
 	)
-	(label "PC8"
-		(at 144.78 105.41 180)
+	(label "PD2"
+		(at 144.78 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "62ff6c2b-3525-4b5f-aaee-c264f8a47a13")
+		(uuid "6370b47a-6990-4cfe-936b-ff848f151fd5")
 	)
 	(label "BOOT1"
 		(at 185.42 110.49 0)
@@ -16040,26 +16090,6 @@
 			(justify left bottom)
 		)
 		(uuid "6764bf83-6f1d-437d-842c-a1ab95424025")
-	)
-	(label "PC15"
-		(at 280.67 316.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "68eb1212-615e-45cc-94bd-44d1a68aeb0c")
-	)
-	(label "PC14"
-		(at 280.67 313.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6a598cc6-e698-4bde-b41a-383271bc3b89")
 	)
 	(label "RGB0"
 		(at 316.23 303.53 0)
@@ -16092,7 +16122,7 @@
 		(uuid "6b6fb832-a507-43a9-87e0-dd475c0bda86")
 	)
 	(label "FPGA_GLOBAL_3"
-		(at 306.07 177.8 180)
+		(at 304.8 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16100,6 +16130,16 @@
 			(justify right bottom)
 		)
 		(uuid "6cdf2e27-67db-4c4b-8925-d5737337fbba")
+	)
+	(label "PA15"
+		(at 185.42 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70444ebb-2e15-4a80-a593-ada765001e0e")
 	)
 	(label "FPGA_SPI_SO"
 		(at 392.43 167.64 180)
@@ -16110,16 +16150,6 @@
 			(justify right bottom)
 		)
 		(uuid "720bdd80-0e1c-46a7-a4bd-7a4b193ebe07")
-	)
-	(label "USART1_TX"
-		(at 299.72 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "73967573-c8ed-4232-9c34-e913e8063887")
 	)
 	(label "NRST"
 		(at 95.25 162.56 180)
@@ -16141,6 +16171,16 @@
 		)
 		(uuid "76b0a3e4-3684-4c24-b192-9416a0518b39")
 	)
+	(label "OUT1"
+		(at 308.61 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "78f45148-8c2c-4506-9c3e-5387f691e014")
+	)
 	(label "USART2_TX"
 		(at 317.5 280.67 0)
 		(effects
@@ -16150,6 +16190,16 @@
 			(justify left bottom)
 		)
 		(uuid "7a57f4f7-118e-4918-ba9f-3293ab655c29")
+	)
+	(label "OUT2"
+		(at 308.61 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b697015-f55c-4d69-98a5-87af68e0a151")
 	)
 	(label "I2S5_SD"
 		(at 185.42 125.73 0)
@@ -16161,6 +16211,16 @@
 		)
 		(uuid "7cf213ad-14c9-4a95-99fe-1b7212ebf86c")
 	)
+	(label "IN2"
+		(at 289.56 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7cf73e72-ba59-43c1-bd69-37ebec72cbec")
+	)
 	(label "RGB1"
 		(at 308.61 102.87 180)
 		(effects
@@ -16171,16 +16231,6 @@
 		)
 		(uuid "7db0a313-6031-4914-a72d-08bba1aadcc4")
 	)
-	(label "PC10"
-		(at 280.67 303.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e8d3fc7-1689-43a7-bc05-744b842bdbef")
-	)
 	(label "FPGA_SPI_CS"
 		(at 205.74 72.39 0)
 		(effects
@@ -16190,6 +16240,16 @@
 			(justify left bottom)
 		)
 		(uuid "7ed91fb1-db3f-4b8d-8ed8-53990377cb39")
+	)
+	(label "BTN1"
+		(at 308.61 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f258507-988e-475f-bedd-a4ca3ef1d893")
 	)
 	(label "I2S5_CK"
 		(at 316.23 290.83 0)
@@ -16211,25 +16271,15 @@
 		)
 		(uuid "81ee2fc0-5ad1-4697-952a-2eb27377d19e")
 	)
-	(label "FPGA_USB_D+"
-		(at 270.51 172.72 180)
+	(label "IN3"
+		(at 289.56 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "81f124e8-5ab4-48e2-8596-8972f2c36ef0")
-	)
-	(label "FUD-"
-		(at 306.07 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "83a4093a-9ac9-4bd3-8cc0-b23051296a02")
+		(uuid "8361c90f-dc40-40d9-abaa-a63074ff4b61")
 	)
 	(label "PC12"
 		(at 144.78 115.57 180)
@@ -16250,16 +16300,6 @@
 			(justify left bottom)
 		)
 		(uuid "85f2cf9b-48b8-4a5a-96e5-85e75ac96815")
-	)
-	(label "PC8"
-		(at 280.67 298.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "86e48e8a-9099-4785-91ce-27787421ed11")
 	)
 	(label "PC13"
 		(at 144.78 118.11 180)
@@ -16282,7 +16322,7 @@
 		(uuid "87db4e63-0123-4ad9-93cb-6e5434c43cc3")
 	)
 	(label "FPGA_GLOBAL_6"
-		(at 407.67 69.85 180)
+		(at 400.05 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16290,6 +16330,16 @@
 			(justify right bottom)
 		)
 		(uuid "87f489b9-44a3-48ca-9d75-0f5dfb5fff07")
+	)
+	(label "USART1_RX"
+		(at 392.43 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "89593029-aafc-4d65-a3ab-78e841ad1ef9")
 	)
 	(label "SPI2_MISO"
 		(at 306.07 160.02 180)
@@ -16301,15 +16351,25 @@
 		)
 		(uuid "8a41e6f4-971d-4b7f-84f0-ddd7955fdc7d")
 	)
-	(label "PC1"
-		(at 280.67 280.67 0)
+	(label "FPGA_USB_D+"
+		(at 491.49 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "8d2af3fb-5bc5-4ece-94e8-cd22ddd15db8")
+		(uuid "8bf3b88b-ebe9-40a4-b523-7621b2a5e2ee")
+	)
+	(label "FPGA_CLK"
+		(at 281.94 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8cb6e2af-3db7-4d9e-9357-bc784f7812a6")
 	)
 	(label "FPGA_SPI_CS"
 		(at 353.06 181.61 180)
@@ -16331,6 +16391,16 @@
 		)
 		(uuid "8dfe3495-1419-4138-9f0e-3e1149ffc8c7")
 	)
+	(label "PA15"
+		(at 105.41 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ea518c9-91d9-40d3-a2a6-5d4233e493b0")
+	)
 	(label "I2S5_CK"
 		(at 185.42 105.41 0)
 		(effects
@@ -16341,16 +16411,6 @@
 		)
 		(uuid "90e85543-e6dc-44c2-9327-e3becf5a0b83")
 	)
-	(label "PC6"
-		(at 144.78 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "929b085b-2b0b-4c6e-a9e1-da4c16368cfc")
-	)
 	(label "FPGA_SPI_SI"
 		(at 205.74 77.47 0)
 		(effects
@@ -16360,6 +16420,16 @@
 			(justify left bottom)
 		)
 		(uuid "92c7a64d-f5bb-44f1-ab76-12e07c317fde")
+	)
+	(label "PB4"
+		(at 185.42 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "968b9726-515b-44e1-b2c3-1e9c3347e8aa")
 	)
 	(label "FPGA_SPI_SO"
 		(at 205.74 80.01 0)
@@ -16391,6 +16461,16 @@
 		)
 		(uuid "993cd4ee-aa0a-4075-995a-4eda0fd55238")
 	)
+	(label "PC11"
+		(at 105.41 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0567b99-6e08-4a65-bc88-19cd504c478c")
+	)
 	(label "I2C1_SDA"
 		(at 504.19 246.38 180)
 		(effects
@@ -16411,16 +16491,6 @@
 		)
 		(uuid "a5a8141d-eae6-4b9f-9a34-4fc6630188e4")
 	)
-	(label "PC6"
-		(at 280.67 293.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a675e0b1-4fff-426b-9eb6-251989ab3dd3")
-	)
 	(label "OSC_IN"
 		(at 154.94 168.91 180)
 		(effects
@@ -16431,15 +16501,15 @@
 		)
 		(uuid "a69d8d39-42de-4ccf-aad4-dcd351c6f44e")
 	)
-	(label "PC7"
-		(at 144.78 102.87 180)
+	(label "FUD+"
+		(at 518.16 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "a7b06a29-13eb-4f2c-b729-b4f668095698")
+		(uuid "a76fece3-4e4c-4616-9aed-7056541e31e7")
 	)
 	(label "SPI1_MOSI"
 		(at 185.42 80.01 0)
@@ -16451,6 +16521,26 @@
 		)
 		(uuid "a8ac71a0-b5f7-497d-a0b5-4e97f3df30eb")
 	)
+	(label "BTN0"
+		(at 308.61 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a94a5eaf-3ee7-42ff-8117-c4c289f27e98")
+	)
+	(label "PC1"
+		(at 105.41 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aafd7e60-4810-4b0e-a754-76fc47de74ab")
+	)
 	(label "FPGA_SPI_SI"
 		(at 392.43 165.1 180)
 		(effects
@@ -16460,26 +16550,6 @@
 			(justify right bottom)
 		)
 		(uuid "abf97b6d-b312-44e1-8835-281f1a8eb799")
-	)
-	(label "PC2"
-		(at 280.67 283.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac3490c0-0bbf-446d-bfc9-7d506500c39b")
-	)
-	(label "PC12"
-		(at 280.67 308.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac8b2392-b1af-49b6-8c9c-3a7146f156c5")
 	)
 	(label "I2C1_SCL"
 		(at 205.74 120.65 0)
@@ -16521,26 +16591,6 @@
 		)
 		(uuid "b0c2d63c-3c72-44eb-bf3a-483659623172")
 	)
-	(label "OUT1"
-		(at 407.67 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b1fea49a-638d-4900-a8ad-69e21de4645f")
-	)
-	(label "BTN1"
-		(at 308.61 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b21839d9-7cce-412e-aa41-f9ab06958b30")
-	)
 	(label "BOOT0"
 		(at 144.78 67.31 180)
 		(effects
@@ -16550,6 +16600,16 @@
 			(justify right bottom)
 		)
 		(uuid "b2b92260-9709-4c26-b313-37b12c72be2e")
+	)
+	(label "PA0"
+		(at 185.42 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2bd5238-c72f-4ac5-b5cd-1ec83f443f14")
 	)
 	(label "PC1"
 		(at 144.78 87.63 180)
@@ -16580,6 +16640,16 @@
 			(justify right bottom)
 		)
 		(uuid "b6fd0d4a-7dba-4897-9523-370987760a39")
+	)
+	(label "FUD-"
+		(at 518.16 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7159f1d-e83e-4ffc-aed0-36d8426e5cee")
 	)
 	(label "SWO"
 		(at 95.25 160.02 180)
@@ -16641,15 +16711,15 @@
 		)
 		(uuid "bf73fa99-0c9a-4ba1-885d-73867fe2df2c")
 	)
-	(label "PC3"
-		(at 280.67 285.75 0)
+	(label "PC2"
+		(at 105.41 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c24f3096-2203-4b48-a196-e37234507406")
+		(uuid "c2dd225a-2ba6-4a43-9747-f0d8d89112e0")
 	)
 	(label "SPI1_MISO"
 		(at 185.42 77.47 0)
@@ -16661,15 +16731,15 @@
 		)
 		(uuid "c31f357d-7421-4bb5-89f1-89387292e17a")
 	)
-	(label "FUD+"
-		(at 306.07 172.72 180)
+	(label "FPGA_USB_D-"
+		(at 491.49 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "c468cde7-ace0-43c8-a943-1ae7a4b68b3b")
+		(uuid "c3ba3505-3b05-4faa-889a-1bc615910ff4")
 	)
 	(label "OUT_STM"
 		(at 364.49 241.3 0)
@@ -16731,15 +16801,15 @@
 		)
 		(uuid "cb8ea3e3-8017-45e6-a8d3-085561deaca0")
 	)
-	(label "PC4"
-		(at 280.67 288.29 0)
+	(label "PB9"
+		(at 105.41 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d102563f-c244-461a-ab03-a946b8af9501")
+		(uuid "cd9c740a-a989-4970-8b42-ca5b778595a2")
 	)
 	(label "FPGA_BOOT"
 		(at 171.45 361.95 180)
@@ -16791,35 +16861,35 @@
 		)
 		(uuid "da0c8db4-f03e-4400-ba3a-18243e209d87")
 	)
-	(label "OUT0"
-		(at 407.67 82.55 180)
+	(label "USART1_TX"
+		(at 392.43 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "def1f69a-da17-4ed7-8a1a-e0e810f04aab")
+		(uuid "e026dc45-e0ed-4e03-9f19-13a89f6516f4")
 	)
-	(label "PC11"
-		(at 280.67 306.07 0)
+	(label "PB4"
+		(at 105.41 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e127600c-8a2d-4f8f-b2d9-d66a75615054")
+		(uuid "e06e1582-fa10-4d0b-bc74-9d5a61444d1a")
 	)
-	(label "FPGA_GLOBAL_3"
-		(at 316.23 316.23 0)
+	(label "PC13"
+		(at 105.41 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e26bcb6f-2533-43f3-9b07-87fa00ac6ebb")
+		(uuid "e22c3a21-334c-4fdb-babf-89df1b1f3434")
 	)
 	(label "USART1_RX"
 		(at 185.42 87.63 0)
@@ -16831,25 +16901,15 @@
 		)
 		(uuid "e3751357-1d31-4cac-9f6c-9b6ce6682b15")
 	)
-	(label "PC5"
-		(at 280.67 290.83 0)
+	(label "PC12"
+		(at 105.41 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e7511802-6b57-45ae-a377-c127a552f572")
-	)
-	(label "PC0"
-		(at 280.67 278.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eb0d0458-ce7b-4727-b9c7-afcd9aa22c94")
+		(uuid "e72b05ee-c82c-489f-b129-80df496256b9")
 	)
 	(label "IN0"
 		(at 171.45 367.03 180)
@@ -16881,15 +16941,15 @@
 		)
 		(uuid "ec60fd0a-5b11-4905-88fb-fae77fe6a3fe")
 	)
-	(label "FPGA_USB_D-"
-		(at 270.51 175.26 180)
+	(label "FUPP"
+		(at 407.67 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "ed54c789-cdb6-48ba-8ab2-7e9fa75e465c")
+		(uuid "efe622e5-ba72-4fcf-b651-f8140572d528")
 	)
 	(label "IN1"
 		(at 171.45 369.57 180)
@@ -16910,6 +16970,16 @@
 			(justify right bottom)
 		)
 		(uuid "f1807ac7-ece3-4a36-973a-63dc7a257c9f")
+	)
+	(label "PA0"
+		(at 105.41 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8a27ee7-4f0c-45fa-85be-b02daff62c08")
 	)
 	(label "USART2_RX"
 		(at 185.42 69.85 0)
@@ -16961,6 +17031,16 @@
 		)
 		(uuid "fae8699f-39cd-476a-9f15-31b87173e517")
 	)
+	(label "PC14"
+		(at 105.41 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb77279d-9baa-40c6-8eda-e98d498f8411")
+	)
 	(label "FPGA_SPI_CS"
 		(at 285.75 193.04 180)
 		(effects
@@ -16970,16 +17050,6 @@
 			(justify right bottom)
 		)
 		(uuid "fc8da487-5c18-42b5-a4e9-f23dbee7e816")
-	)
-	(label "FPGA_CLK"
-		(at 292.1 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fdae9e81-751b-4b34-b996-81d99f3ce579")
 	)
 	(label "SPI2_MOSI"
 		(at 407.67 80.01 180)
@@ -19215,73 +19285,6 @@
 			(project "iCEBrainstorm"
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
 					(reference "#PWR0100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 280.67 300.99 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11186bda-7e3d-47f2-93e4-56a87247f9b8")
-		(property "Reference" "#PWR056"
-			(at 276.86 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 284.48 300.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 280.67 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 280.67 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 280.67 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "121e8515-b159-4865-b660-7a3a2c30a75d")
-		)
-		(instances
-			(project ""
-				(path "/a979115e-05e2-465d-a941-b2ab44135948"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -32295,7 +32298,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,1.5kΩ")
-		(at 283.21 166.37 0)
+		(at 504.19 128.27 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32304,7 +32307,7 @@
 		(dnp no)
 		(uuid "690decd3-e8f4-4756-aa1a-05a86daa88c5")
 		(property "Reference" "R26"
-			(at 282.194 172.72 90)
+			(at 503.174 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32313,7 +32316,7 @@
 			)
 		)
 		(property "Value" "1.5kΩ"
-			(at 283.21 166.624 90)
+			(at 504.19 128.524 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -32322,7 +32325,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 284.988 166.37 90)
+			(at 505.968 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32331,7 +32334,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1501T5E_C22843.pdf"
-			(at 283.21 166.37 0)
+			(at 504.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32340,7 +32343,7 @@
 			)
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 1.5kΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 283.21 166.37 0)
+			(at 504.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32349,7 +32352,7 @@
 			)
 		)
 		(property "LCSC" "C22843"
-			(at 283.21 166.37 0)
+			(at 504.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32358,7 +32361,7 @@
 			)
 		)
 		(property "Stock" "2582969"
-			(at 283.21 166.37 0)
+			(at 504.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32367,7 +32370,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 283.21 166.37 0)
+			(at 504.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32376,7 +32379,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 283.21 166.37 0)
+			(at 504.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32385,7 +32388,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 283.21 166.37 0)
+			(at 504.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32394,7 +32397,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 283.21 166.37 0)
+			(at 504.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32403,7 +32406,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 283.21 166.37 0)
+			(at 504.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32412,7 +32415,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 283.21 166.37 0)
+			(at 504.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32421,7 +32424,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 283.21 166.37 0)
+			(at 504.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32430,7 +32433,7 @@
 			)
 		)
 		(property "Part" "0603WAF1501T5E"
-			(at 283.21 166.37 0)
+			(at 504.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32439,7 +32442,7 @@
 			)
 		)
 		(property "Resistance" "1.5kΩ"
-			(at 283.21 166.37 0)
+			(at 504.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32448,7 +32451,7 @@
 			)
 		)
 		(property "Power(Watts)" "100mW"
-			(at 283.21 166.37 0)
+			(at 504.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32457,7 +32460,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 283.21 166.37 0)
+			(at 504.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32466,7 +32469,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "75V"
-			(at 283.21 166.37 0)
+			(at 504.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32475,7 +32478,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 283.21 166.37 0)
+			(at 504.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32484,7 +32487,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 283.21 166.37 0)
+			(at 504.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32493,7 +32496,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 283.21 166.37 0)
+			(at 504.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32508,7 +32511,7 @@
 			(uuid "91cf1ee7-2697-4852-90f0-633e610b850e")
 		)
 		(instances
-			(project ""
+			(project "iCEBrainstorm"
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
 					(reference "R26")
 					(unit 1)
@@ -34267,7 +34270,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,68Ω")
-		(at 285.75 175.26 90)
+		(at 506.73 137.16 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -34276,7 +34279,7 @@
 		(dnp no)
 		(uuid "862aa6ba-c6df-4f77-9987-0a5b2c3f31ab")
 		(property "Reference" "R27"
-			(at 280.924 176.276 90)
+			(at 501.904 138.176 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34284,7 +34287,7 @@
 			)
 		)
 		(property "Value" "68Ω"
-			(at 285.75 175.26 90)
+			(at 506.73 137.16 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -34293,7 +34296,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 285.75 173.482 90)
+			(at 506.73 135.382 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34302,7 +34305,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010030_UNI-ROYAL-Uniroyal-Elec-0603WAF680JT5E_C27592.pdf"
-			(at 285.75 175.26 0)
+			(at 506.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34311,7 +34314,7 @@
 			)
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 68Ω 0603 Chip Resistor - Surface Mount ROHS"
-			(at 285.75 175.26 0)
+			(at 506.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34320,7 +34323,7 @@
 			)
 		)
 		(property "LCSC" "C27592"
-			(at 285.75 175.26 0)
+			(at 506.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34329,7 +34332,7 @@
 			)
 		)
 		(property "Stock" "1424068"
-			(at 285.75 175.26 0)
+			(at 506.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34338,7 +34341,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 285.75 175.26 0)
+			(at 506.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34347,7 +34350,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 285.75 175.26 0)
+			(at 506.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34356,7 +34359,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 285.75 175.26 0)
+			(at 506.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34365,7 +34368,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 285.75 175.26 0)
+			(at 506.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34374,7 +34377,7 @@
 			)
 		)
 		(property "Class" "Preferred Component"
-			(at 285.75 175.26 0)
+			(at 506.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34383,7 +34386,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 285.75 175.26 0)
+			(at 506.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34392,7 +34395,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 285.75 175.26 0)
+			(at 506.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34401,7 +34404,7 @@
 			)
 		)
 		(property "Part" "0603WAF680JT5E"
-			(at 285.75 175.26 0)
+			(at 506.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34410,7 +34413,7 @@
 			)
 		)
 		(property "Resistance" "68Ω"
-			(at 285.75 175.26 0)
+			(at 506.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34419,7 +34422,7 @@
 			)
 		)
 		(property "Power(Watts)" "100mW"
-			(at 285.75 175.26 0)
+			(at 506.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34428,7 +34431,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 285.75 175.26 0)
+			(at 506.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34437,7 +34440,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "75V"
-			(at 285.75 175.26 0)
+			(at 506.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34446,7 +34449,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 285.75 175.26 0)
+			(at 506.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34455,7 +34458,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 285.75 175.26 0)
+			(at 506.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34464,7 +34467,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 285.75 175.26 0)
+			(at 506.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35618,7 +35621,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x16_Pin")
-		(at 275.59 295.91 0)
+		(at 100.33 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35627,7 +35630,7 @@
 		(fields_autoplaced yes)
 		(uuid "928601b6-72ad-49b6-8ca2-9a9e9e7572bd")
 		(property "Reference" "J3"
-			(at 276.225 273.05 0)
+			(at 100.965 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35635,7 +35638,7 @@
 			)
 		)
 		(property "Value" "Conn_01x16_Pin"
-			(at 276.225 275.59 0)
+			(at 100.965 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35643,7 +35646,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
-			(at 275.59 295.91 0)
+			(at 100.33 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35652,7 +35655,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 295.91 0)
+			(at 100.33 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35661,7 +35664,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x16, script generated"
-			(at 275.59 295.91 0)
+			(at 100.33 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37950,7 +37953,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,1.5kΩ")
-		(at 279.4 166.37 0)
+		(at 500.38 128.27 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -37959,7 +37962,7 @@
 		(dnp yes)
 		(uuid "a8659404-9e5f-4270-9977-e922442af3cd")
 		(property "Reference" "R25"
-			(at 278.384 172.72 90)
+			(at 499.364 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37968,7 +37971,7 @@
 			)
 		)
 		(property "Value" "1.5kΩ"
-			(at 279.4 166.624 90)
+			(at 500.38 128.524 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -37977,7 +37980,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 281.178 166.37 90)
+			(at 502.158 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37986,7 +37989,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1501T5E_C22843.pdf"
-			(at 279.4 166.37 0)
+			(at 500.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37995,7 +37998,7 @@
 			)
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 1.5kΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 279.4 166.37 0)
+			(at 500.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38004,7 +38007,7 @@
 			)
 		)
 		(property "LCSC" "C22843"
-			(at 279.4 166.37 0)
+			(at 500.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38013,7 +38016,7 @@
 			)
 		)
 		(property "Stock" "2582969"
-			(at 279.4 166.37 0)
+			(at 500.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38022,7 +38025,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 279.4 166.37 0)
+			(at 500.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38031,7 +38034,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 279.4 166.37 0)
+			(at 500.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38040,7 +38043,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 279.4 166.37 0)
+			(at 500.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38049,7 +38052,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 279.4 166.37 0)
+			(at 500.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38058,7 +38061,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 279.4 166.37 0)
+			(at 500.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38067,7 +38070,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 279.4 166.37 0)
+			(at 500.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38076,7 +38079,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 279.4 166.37 0)
+			(at 500.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38085,7 +38088,7 @@
 			)
 		)
 		(property "Part" "0603WAF1501T5E"
-			(at 279.4 166.37 0)
+			(at 500.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38094,7 +38097,7 @@
 			)
 		)
 		(property "Resistance" "1.5kΩ"
-			(at 279.4 166.37 0)
+			(at 500.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38103,7 +38106,7 @@
 			)
 		)
 		(property "Power(Watts)" "100mW"
-			(at 279.4 166.37 0)
+			(at 500.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38112,7 +38115,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 279.4 166.37 0)
+			(at 500.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38121,7 +38124,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "75V"
-			(at 279.4 166.37 0)
+			(at 500.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38130,7 +38133,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 279.4 166.37 0)
+			(at 500.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38139,7 +38142,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 279.4 166.37 0)
+			(at 500.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38148,7 +38151,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 279.4 166.37 0)
+			(at 500.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42875,7 +42878,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,68Ω")
-		(at 288.29 172.72 90)
+		(at 509.27 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42883,7 +42886,7 @@
 		(dnp no)
 		(uuid "d6e485a3-2419-4232-819a-8b1a30f87475")
 		(property "Reference" "R28"
-			(at 292.862 171.45 90)
+			(at 513.842 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42891,7 +42894,7 @@
 			)
 		)
 		(property "Value" "68Ω"
-			(at 288.29 172.72 90)
+			(at 509.27 134.62 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -42900,7 +42903,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 288.29 174.498 90)
+			(at 509.27 136.398 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42909,7 +42912,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010030_UNI-ROYAL-Uniroyal-Elec-0603WAF680JT5E_C27592.pdf"
-			(at 288.29 172.72 0)
+			(at 509.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42918,7 +42921,7 @@
 			)
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 68Ω 0603 Chip Resistor - Surface Mount ROHS"
-			(at 288.29 172.72 0)
+			(at 509.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42927,7 +42930,7 @@
 			)
 		)
 		(property "LCSC" "C27592"
-			(at 288.29 172.72 0)
+			(at 509.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42936,7 +42939,7 @@
 			)
 		)
 		(property "Stock" "1424068"
-			(at 288.29 172.72 0)
+			(at 509.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42945,7 +42948,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 288.29 172.72 0)
+			(at 509.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42954,7 +42957,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 288.29 172.72 0)
+			(at 509.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42963,7 +42966,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 288.29 172.72 0)
+			(at 509.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42972,7 +42975,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 288.29 172.72 0)
+			(at 509.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42981,7 +42984,7 @@
 			)
 		)
 		(property "Class" "Preferred Component"
-			(at 288.29 172.72 0)
+			(at 509.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42990,7 +42993,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 288.29 172.72 0)
+			(at 509.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42999,7 +43002,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 288.29 172.72 0)
+			(at 509.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43008,7 +43011,7 @@
 			)
 		)
 		(property "Part" "0603WAF680JT5E"
-			(at 288.29 172.72 0)
+			(at 509.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43017,7 +43020,7 @@
 			)
 		)
 		(property "Resistance" "68Ω"
-			(at 288.29 172.72 0)
+			(at 509.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43026,7 +43029,7 @@
 			)
 		)
 		(property "Power(Watts)" "100mW"
-			(at 288.29 172.72 0)
+			(at 509.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43035,7 +43038,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 288.29 172.72 0)
+			(at 509.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43044,7 +43047,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "75V"
-			(at 288.29 172.72 0)
+			(at 509.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43053,7 +43056,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 288.29 172.72 0)
+			(at 509.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43062,7 +43065,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 288.29 172.72 0)
+			(at 509.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43071,7 +43074,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 288.29 172.72 0)
+			(at 509.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43086,7 +43089,7 @@
 			(uuid "6989ed8d-41f2-441d-a89b-0e9f970450b0")
 		)
 		(instances
-			(project ""
+			(project "iCEBrainstorm"
 				(path "/a979115e-05e2-465d-a941-b2ab44135948"
 					(reference "R28")
 					(unit 1)
