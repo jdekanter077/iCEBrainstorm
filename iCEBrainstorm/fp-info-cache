@@ -1,4 +1,4 @@
-26813858452204818
+26817388626351424
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69090,6 +69090,13 @@ THT
 4
 2
 JJ
+ETH_PCB_CLUB_logo
+
+
+0
+0
+0
+JJ
 JJ_SolderWire-0.1sqmm_1x04_P3.6mm_D0.4mm_OD1mm
 Soldered wire connection, for 4 times 0.1 mm² wires, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.10 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator
 connector wire 0.1sqmm
@@ -69126,6 +69133,13 @@ RC Connector XT60
 2
 JJ
 dc-dc
+
+
+0
+0
+0
+JJ
+iCE-Brain
 
 
 0
