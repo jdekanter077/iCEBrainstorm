@@ -13297,8 +13297,8 @@
 		(uuid b6636196-c4c4-4004-bce7-f9a9902c7982)
 	)
 	(rectangle
-		(start 251.46 212.09)
-		(end 454.66 406.4)
+		(start 48.26 212.09)
+		(end 251.46 406.4)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -16562,16 +16562,6 @@
 		)
 		(uuid "48956e48-5105-48eb-9f75-c72cbc88b7d4")
 	)
-	(label "FPGA_GLOBAL_1"
-		(at 185.42 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "48fb6851-9f9a-4ae6-b698-460f0201e73c")
-	)
 	(label "PC10"
 		(at 105.41 87.63 0)
 		(effects
@@ -17001,6 +16991,16 @@
 			(justify left bottom)
 		)
 		(uuid "80798a9d-3ba2-4e65-b15b-c81683206343")
+	)
+	(label "FPGA_GLOBAL_6"
+		(at 185.42 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81aab6f3-1b26-4aa5-b976-db3a3f85b3f0")
 	)
 	(label "OUT1"
 		(at 364.49 228.6 0)
