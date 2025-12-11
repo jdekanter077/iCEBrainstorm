@@ -63,24 +63,7 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [
-        [
-          "hole_clearance|108163000|66824000|674a6144-b787-43b3-815e-75cf6b9a598f|d9a19efd-e0a1-42d5-bc11-43c77d243f31",
-          ""
-        ],
-        [
-          "hole_clearance|114063000|66824000|94c48493-63a4-49d4-99cc-a79213710802|764f2832-751f-4a70-9a69-1f2b5dc49e77",
-          ""
-        ],
-        [
-          "hole_clearance|86585000|66800000|698889c1-69b5-4835-93d6-54bc20dacd35|50d19075-4929-4e25-b8dd-222e46be4d88",
-          "usb connector ⇢ isch ok"
-        ],
-        [
-          "hole_clearance|92485000|66800000|017a4d9d-c11b-4500-8fc7-f344bf70bee6|fc96b440-022e-4558-9b60-e28222d47277",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
