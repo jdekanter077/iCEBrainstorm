@@ -48,3 +48,16 @@ Check if the ```CDONE``` LED at the top of the board is on.
 - The FPGA is now in DFU-mode, and can be programmed with ```dfu-util``` (or other software)
 
 
+
+
+
+## License
+
+This repository is primarily licensed under the GNU General Public License v3.0.
+
+Exceptions:
+- STM32CubeMX-generated files are licensed under STMicroelectronics'
+  STM32Cube firmware license (see file headers).
+- The NO2 bootloader firmware is licensed under GPL-3.0-or-later
+  and originates from https://github.com/<no2-repo>.
+- Some third-party components may be licensed under MIT or CERN OHL v2.
