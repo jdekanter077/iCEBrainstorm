@@ -13297,8 +13297,8 @@
 		(uuid b6636196-c4c4-4004-bce7-f9a9902c7982)
 	)
 	(rectangle
-		(start 48.26 212.09)
-		(end 251.46 406.4)
+		(start 248.92 208.28)
+		(end 452.12 402.59)
 		(stroke
 			(width 0.254)
 			(type dash)

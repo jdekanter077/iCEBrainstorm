@@ -1,0 +1,8 @@
+# Buttons
+set_io btn0 31
+set_io btn1 32
+
+# LEDs
+set_io led0 25
+set_io led1 26
+
