@@ -56,3 +56,6 @@ replace the hex number with the size of ```hardware.bin``` (in hexadecimal) minu
 run ```flashrom -p serprog:dev=/dev/tty.usbmodem1301:115200,spispeed=12M --layout layout.txt --include bootloader:bootloader.bin -w``` 
 the usb device may differ a bit. 
 
+
+# Author
+Joël de Kanter

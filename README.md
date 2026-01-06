@@ -52,6 +52,13 @@ Check if the ```CDONE``` LED at the top of the board is on.
 - Reset the ```BOOT0``` Switch.
 - Check if the ```CDODE``` LED at the top of the board is on.
 - The FPGA is now in DFU-mode, and can be programmed with ```dfu-util``` (or other software)
+- run ```dfu-util -l``` to list all dfu devices.
+
+example output: ```Found DFU: [1d50:6146] ver=0006, devnum=12, cfg=1, intf=0, path="", alt=1, name="RISC-V firmware", serial="e464bc68932e5839"
+Found DFU: [1d50:6146] ver=0006, devnum=12, cfg=1, intf=0, path="", alt=0, name="iCE40 bitstream", serial="e464bc68932e5839"```
+
+- run ```dfu-util -d 1d50:6146 -a 0 -D hardware.bin``` to flash your bitstream on the FPGA. Maybe You have to replace the ```1d50:6146```-number with what you see on your terminal.
+
 
 ## Clock
 The STM and the FPGA are relatively independent from each other, with one slight caveat:
@@ -65,7 +72,10 @@ This clock can of course be used in your FPGA design as well.
 ![](/documentation/stcubemx_rcc_mco_2.png)
 - Done!
 
-## License
+# Author
+Joël de Kanter
+
+# License
 
 This repository is primarily licensed under the GNU General Public License v3.0.
 
