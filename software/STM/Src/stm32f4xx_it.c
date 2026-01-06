@@ -214,4 +214,19 @@ void OTG_FS_IRQHandler(void)
 
 /* USER CODE BEGIN 1 */
 
+
+// VIDE CODED START
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+    if (huart->Instance == USART1)
+    {
+        // Send received byte to USB
+        CDC_Transmit_FS(uart_rx_buf, 1);
+
+        // Restart UART reception
+        HAL_UART_Receive_IT(&huart1, uart_rx_buf, 1);
+    }
+}
+// VIDE CODED END
+
 /* USER CODE END 1 */
