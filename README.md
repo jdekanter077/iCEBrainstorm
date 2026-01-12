@@ -50,15 +50,46 @@ Check if the ```CDONE``` LED at the top of the board is on.
 - Set the ```FBOOT``` Switch
 - press ```RESET FPGA``` or plug in the cable
 - Reset the ```BOOT0``` Switch.
-- Check if the ```CDODE``` LED at the top of the board is on.
+- Check if the ```CDONE``` LED at the top of the board is on.
 - The FPGA is now in DFU-mode, and can be programmed with ```dfu-util``` (or other software)
 - run ```dfu-util -l``` to list all dfu devices.
 
-example output: ```Found DFU: [1d50:6146] ver=0006, devnum=12, cfg=1, intf=0, path="", alt=1, name="RISC-V firmware", serial="e464bc68932e5839"
-Found DFU: [1d50:6146] ver=0006, devnum=12, cfg=1, intf=0, path="", alt=0, name="iCE40 bitstream", serial="e464bc68932e5839"```
+example output: 
+```Found DFU: [1d50:6146] ver=0006, devnum=12, cfg=1, intf=0, path="", alt=1, name="RISC-V firmware", serial="e464bc68932e5839"
+Found DFU: [1d50:6146] ver=0006, devnum=12, cfg=1, intf=0, path="", alt=0, name="iCE40 bitstream", serial="e464bc68932e5839"
+```
 
 - run ```dfu-util -d 1d50:6146 -a 0 -D hardware.bin``` to flash your bitstream on the FPGA. Maybe You have to replace the ```1d50:6146```-number with what you see on your terminal.
 
+### APIO Support
+[apio](https://github.com/FPGAwars/apio) is a open-source FPGA Toolchain, which will help us synthesize HDL code.
+Make sure you have a recent version of apio installed! You can uninstall and install again to update.
+- Install apio using ```pip install apio```
+- edit ```~/.apio/packages/definitions/boards.jsonc``` and ad this snippet:
+```
+  // https://github.com/jdekanter077/iCEBrainstorm
+  "iCEBrainstorm": {
+    "legacy-name": "iCEBrainstorm",
+    "description": "iCEBrainstorm by jdk",
+    "fpga-id": "ice40up5k-sg48",
+    "programmer": {
+      "id": "dfu"
+    },
+    "usb": {
+      "vid": "1d50",
+      "pid": "6146"
+    }
+  },
+```
+
+This will add apio support for the iCEBrainstorm board.
+-  to create a new project, run ```apio create -b iCEBrainstorm```
+-  edit your HDL code
+#TODO
+
+
+### Bootloader
+Check out [bootloader/README.md](./software/FPGA/bootloader/README.md) for more information.
 
 ## Clock
 The STM and the FPGA are relatively independent from each other, with one slight caveat:
