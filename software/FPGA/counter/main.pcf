@@ -1,0 +1,39 @@
+#FPGA PINOUT DESCRIPTION
+
+#----- CLK -----
+set_io --warn-no-port clk_i 20  #16 MHz Clock, provided by the STM32
+
+#----- Buttons -----
+set_io --warn-no-port btn_0 31 #left button
+set_io --warn-no-port btn_1 32 #right button
+
+#----- Switches -----
+set_io --warn-no-port in_0 34 #Input Switch and/or GPIO
+set_io --warn-no-port in_1 35 #Input Switch and/or GPIO
+set_io --warn-no-port in_2 36 #Input Switch and/or GPIO
+set_io --warn-no-port in_3 37 #Input Switch and/or GPIO
+
+#----- LED ------
+set_io --warn-no-port out_0 25  #LED
+set_io --warn-no-port out_1 26  #LED
+set_io --warn-no-port out_2 27  #LED
+set_io --warn-no-port out_3 28  #LED
+
+#----- FPGA-IO ------
+set_io --warn-no-port io_0 47  #GPIO
+set_io --warn-no-port io_1 42  #GPIO
+set_io --warn-no-port io_2 38  #GPIO
+set_io --warn-no-port io_3 23  #GPIO
+
+#----- RGB-LED ------
+set_io --warn-no-port rgb_0 39 #RGB LED and/or GPIO
+set_io --warn-no-port rgb_1 40 #RGB LED and/or GPIO
+set_io --warn-no-port rgb_2 41 #RGB LED and/or GPIO
+
+#----- UART ------
+set_io --warn-no-port uart_tx 2  #uart output (STM RX <- FPGA TX)
+set_io --warn-no-port uart_rx 3  #uart input (STM TX -> FPGA RX)
+
+#----- I2C ------
+set_io --warn-no-port scl 19 #I2C Clock
+set_io --warn-no-port sda 18 #I2C Data
