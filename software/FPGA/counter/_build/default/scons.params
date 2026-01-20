@@ -1,4 +1,4 @@
-timestamp: "18221044585"
+timestamp: "19105217230"
 arch: ICE40
 fpga_info {
   fpga_id: "ice40up5k-sg48"
@@ -10,9 +10,7 @@ fpga_info {
   }
 }
 verbosity {
-  all: true
-  synth: false
-  pnr: false
+  pnr: true
 }
 environment {
   platform_id: "darwin-arm64"

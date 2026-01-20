@@ -10208,7 +10208,7 @@
       "attributes": {
         "hdlname": "main",
         "top": "00000000000000000000000000000001",
-        "src": "main.v:1.1-46.10"
+        "src": "main.v:1.1-35.10"
       },
       "parameter_default_values": {
         "PRESCALER": "111101000010010000000000"
@@ -11837,7 +11837,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:40.1-44.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:29.1-33.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -12083,7 +12083,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:43.20-43.33|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:32.20-32.33|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -12105,7 +12105,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:40.1-44.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:29.1-33.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -12128,7 +12128,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:43.20-43.33|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:32.20-32.33|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -12151,7 +12151,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:43.20-43.33|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:32.20-32.33|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -12173,7 +12173,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:40.1-44.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:29.1-33.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -12196,7 +12196,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:43.20-43.33|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:32.20-32.33|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -12220,7 +12220,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:40.1-44.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:29.1-33.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -12243,7 +12243,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:43.20-43.33|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:32.20-32.33|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -12607,7 +12607,7 @@
           "hide_name": 0,
           "bits": [ 4, 5, 6, 7 ],
           "attributes": {
-            "src": "main.v:37.11-37.20"
+            "src": "main.v:26.11-26.20"
           }
         },
         "out_0": {
@@ -12657,7 +12657,7 @@
           "bits": [ 87 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:43.20-43.33|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:32.20-32.33|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "out_1_SB_DFFE_Q_D": {
@@ -12678,7 +12678,7 @@
           "bits": [ 89 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:43.20-43.33|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:32.20-32.33|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "out_2_SB_DFFE_Q_D": {

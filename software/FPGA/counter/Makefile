@@ -1,3 +1,7 @@
+# this does the same as synthesize-and-flash 
+upload:
+	apio upload
+
 # List all FPGAs and give an error when ther is none
 list:
 	dfu-util -l
@@ -22,7 +26,7 @@ FLASH_FILE := _build/default/hardware.bin
 
 # actual command to find the FPGA and programm it.
 # DOES NOT WORK if mutiple FPGAs are plugged in!
-flash:
+flash-dfu:
 	@if [ -z "$(DFU_ID)" ]; then \
 		echo "Error: iCEBrainstorm DFU not found"; \
 		exit 1; \
@@ -30,7 +34,7 @@ flash:
 	dfu-util -d $(DFU_ID) -a 0 -D $(FLASH_FILE) # This command uploads the bitstream
 
 # Synthesize and flash
-synthesize-and-flash: synthesize flash
+synthesize-and-flash-dfu: synthesize flash-dfu
 	
 # Clean
 clean:

@@ -6,7 +6,8 @@ You will need STMCubeMX, VSCode and STMCubeProgrammer to program the STM.
 
 <!-- You can use [apio](https://github.com/FPGAwars/apio) to synthesise a design and upload the firmware to the FPGA using a [online dfu-uploader](https://devanlai.github.io/webdfu/dfu-util/) (easier) -->
 
-You will need to use the [oss-cad-suite](https://github.com/YosysHQ/oss-cad-suite-build) to to synthesise your design and upload the bitstream to the FPGA. 
+<!-- You will need to use the [oss-cad-suite](https://github.com/YosysHQ/oss-cad-suite-build) to to synthesise your design and upload the bitstream to the FPGA.  -->
+You can use apio to synthesize and upload your hdl on the FPGA. Refer to [apio support](#apio-support) on how to configure apio to support the iCEBrainstorm board.
 
 ## Basic Structure
 The STM32 Microcontroller and the iCE40 FPGA share one PCB and have some connections between them to communicate.
@@ -51,21 +52,25 @@ Check if the ```CDONE``` LED at the top of the board is on.
 - press ```RESET FPGA``` or plug in the cable
 - Reset the ```BOOT0``` Switch.
 - Check if the ```CDONE``` LED at the top of the board is on.
-- The FPGA is now in DFU-mode, and can be programmed with ```dfu-util``` (or other software)
-- run ```dfu-util -l``` to list all dfu devices.
+- The FPGA is now in DFU-mode, and can be programmed with 
+```apio upload``` or using ```dfu-util```
 
-example output: 
+<!-- - run ```dfu-util -l``` to list all dfu devices. -->
+<!-- example output: 
 ```Found DFU: [1d50:6146] ver=0006, devnum=12, cfg=1, intf=0, path="", alt=1, name="RISC-V firmware", serial="e464bc68932e5839"
 Found DFU: [1d50:6146] ver=0006, devnum=12, cfg=1, intf=0, path="", alt=0, name="iCE40 bitstream", serial="e464bc68932e5839"
-```
+``` -->
+<!-- - run ```dfu-util -d 1d50:6146 -a 0 -D hardware.bin``` to flash your bitstream on the FPGA. Maybe You have to replace the ```1d50:6146```-number with what you see on your terminal. -->
+- run ```apio devices usb``` to list all dfu devices.
+- run ```apio upload``` to synthesize and upload the verilog code.
 
-- run ```dfu-util -d 1d50:6146 -a 0 -D hardware.bin``` to flash your bitstream on the FPGA. Maybe You have to replace the ```1d50:6146```-number with what you see on your terminal.
+-  To edit your HDL code, take a look at the examples in [software/FPGA](./software/FPGA)
 
 ### APIO Support
 [apio](https://github.com/FPGAwars/apio) is a open-source FPGA Toolchain, which will help us synthesize HDL code.
 Make sure you have a recent version of apio installed! You can uninstall and install again to update.
 - Install apio using ```pip install apio```
-- edit ```~/.apio/packages/definitions/boards.jsonc``` and ad this snippet:
+- edit ```~/.apio/packages/definitions/boards.jsonc``` and add this snippet:
 ```
   // https://github.com/jdekanter077/iCEBrainstorm
   "iCEBrainstorm": {
@@ -84,11 +89,10 @@ Make sure you have a recent version of apio installed! You can uninstall and ins
 
 This will add apio support for the iCEBrainstorm board.
 -  to create a new project, run ```apio create -b iCEBrainstorm```
--  edit your HDL code
-#TODO
-
+-  edit your HDL code, take a look at the examples in [software/FPGA](./software/FPGA)
 
 ### Bootloader
+The Bootloader is preinstalled by Joël and should not have to be touched.
 Check out [bootloader/README.md](./software/FPGA/bootloader/README.md) for more information.
 
 ## Clock
@@ -101,7 +105,36 @@ This clock can of course be used in your FPGA design as well.
 - In cubeMX, go to ```PC9``` and select ```RCC_MCO_2```
 
 ![](/documentation/stcubemx_rcc_mco_2.png)
+- Generate Code, open the folder in STMCubeIDE or VSCode, compile, and upload using STMCubeProgrammer.
 - Done!
+
+## FPGA Pinout Description:
+These informations should be in every ```main.pcf``` file.
+
+| Description | FPGA Pin | Usage |
+| --- | ---- | ---- |
+| clk_i | 20  | 16 MHz Clock, provided by the STM32 | 
+| btn_0 | 31 | left button | 
+| btn_1 | 32 | right button | 
+| in_0 | 34 | Input Switch and/or GPIO | 
+| in_1 | 35 | Input Switch and/or GPIO | 
+| in_2 | 36 | Input Switch and/or GPIO | 
+| in_3 | 37 | Input Switch and/or GPIO | 
+| out_0 | 25  | LED | 
+| out_1 | 26  | LED | 
+| out_2 | 27  | LED | 
+| out_3 | 28  | LED | 
+| io_0 | 47  | GPIO | 
+| io_1 | 42  | GPIO | 
+| io_2 | 38  | GPIO | 
+| io_3 | 23  | GPIO | 
+| rgb_0 | 39 | RGB LED and/or GPIO | 
+| rgb_1 | 40 | RGB LED and/or GPIO | 
+| rgb_2 | 41 | RGB LED and/or GPIO | 
+| uart_tx | 2  | uart output (STM RX <- FPGA TX) | 
+| uart_rx | 3  | uart input (STM TX -> FPGA RX) | 
+| scl | 19 | I2C Clock | 
+| sda | 18 | I2C Data | 
 
 # Author
 Joël de Kanter

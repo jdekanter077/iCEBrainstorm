@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/oompje_joost/Documents/Elektronika_Code/iCEBrainstorm/software/STM/build/Debug/cmake_install.cmake",
+		"/Users/oompje_joost/Documents/Elektronika_Code/iCEBrainstorm/software/STM/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
