@@ -1,4 +1,4 @@
-timestamp: "19105217230"
+timestamp: "21193818327"
 arch: ICE40
 fpga_info {
   fpga_id: "ice40up5k-sg48"
@@ -8,9 +8,6 @@ fpga_info {
     type: "up5k"
     pack: "sg48"
   }
-}
-verbosity {
-  pnr: true
 }
 environment {
   platform_id: "darwin-arm64"
@@ -26,4 +23,9 @@ apio_env_params {
   env_name: "default"
   board_id: "iCEBrainstorm"
   top_module: "main"
+}
+target {
+  upload {
+    programmer_cmd: "dfu-util -d 1D50:6146 -a 0 -D $SOURCE"
+  }
 }
