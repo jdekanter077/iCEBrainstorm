@@ -32,7 +32,8 @@ If everything works, a ```bootloader.bin``` file should be generated in ```ice40
 
 ## Flashing the bootloader to the FPGA
 
-If the no2bootloader is (still) in the spi-flash, than switch the ```FBOOT``` button 4 times. The Bootloader should show up in ```dfu-util -l```. There should be 4 options/listed devices istead of the usual two.
+If the no2bootloader is (still) in the spi-flash, than switch the ```FBOOT``` button 4 times. The Bootloader should show up in ```dfu-util -l```. There should be 4 options/listed devices istead of the usual two. If this works, you can update the Bootloader using ````dfu-util```.
+Else:
 
 ### Preparing the Board
 Electrically disconnect the spi-flash from the FPGA by desoldering + cutting the connections of the SPI lines. Make sure (with a mutimeter) that the connections are indeed not conducting.

@@ -1,5 +1,5 @@
 {
-  "creator": "Yosys 0.57+178 (git sha1 93dca50b9, aarch64-apple-darwin23.5-clang++ 18.1.8 -fPIC -O3)",
+  "creator": "Yosys 0.57+268 (git sha1 47ca09a01, aarch64-apple-darwin23.5-clang++ 18.1.8 -fPIC -O3)",
   "modules": {
     "$__ABC9_DELAY": {
       "attributes": {
@@ -23,7 +23,7 @@
         }
       },
       "cells": {
-        "$specify$927": {
+        "$specify$922": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -360,7 +360,7 @@
         }
       },
       "cells": {
-        "$specify$927": {
+        "$specify$922": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -432,7 +432,7 @@
         }
       },
       "cells": {
-        "$specify$927": {
+        "$specify$922": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -10208,7 +10208,7 @@
       "attributes": {
         "hdlname": "main",
         "top": "00000000000000000000000000000001",
-        "src": "main.v:1.1-35.10"
+        "src": "main.v:1.1-42.10"
       },
       "parameter_default_values": {
         "PRESCALER": "111101000010010000000000"
@@ -10240,14 +10240,14 @@
         }
       },
       "cells": {
-        "freqcounter_SB_DFFSR_Q": {
+        "freqcounter_q_SB_DFFSR_Q": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -10262,14 +10262,14 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_1": {
+        "freqcounter_q_SB_DFFSR_Q_1": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -10284,14 +10284,14 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_10": {
+        "freqcounter_q_SB_DFFSR_Q_10": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -10306,7 +10306,7 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_10_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_10_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -10314,7 +10314,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -10331,13 +10331,13 @@
             "O": [ 13 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_10_D_SB_LUT4_O_I3_SB_CARRY_CO": {
+        "freqcounter_q_SB_DFFSR_Q_10_D_SB_LUT4_O_I3_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -10352,14 +10352,14 @@
             "I1": [ 17 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_11": {
+        "freqcounter_q_SB_DFFSR_Q_11": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -10374,7 +10374,7 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_11_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_11_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -10382,7 +10382,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -10399,13 +10399,13 @@
             "O": [ 18 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_11_D_SB_LUT4_O_I3_SB_CARRY_CO": {
+        "freqcounter_q_SB_DFFSR_Q_11_D_SB_LUT4_O_I3_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -10420,14 +10420,14 @@
             "I1": [ 20 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_12": {
+        "freqcounter_q_SB_DFFSR_Q_12": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -10442,7 +10442,7 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_12_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_12_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -10450,7 +10450,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -10467,13 +10467,13 @@
             "O": [ 21 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_12_D_SB_LUT4_O_I3_SB_CARRY_CO": {
+        "freqcounter_q_SB_DFFSR_Q_12_D_SB_LUT4_O_I3_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -10488,14 +10488,14 @@
             "I1": [ 23 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_13": {
+        "freqcounter_q_SB_DFFSR_Q_13": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -10510,7 +10510,7 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_13_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_13_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -10518,7 +10518,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -10535,13 +10535,13 @@
             "O": [ 24 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_13_D_SB_LUT4_O_I3_SB_CARRY_CO": {
+        "freqcounter_q_SB_DFFSR_Q_13_D_SB_LUT4_O_I3_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -10556,14 +10556,14 @@
             "I1": [ 26 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_14": {
+        "freqcounter_q_SB_DFFSR_Q_14": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -10578,7 +10578,7 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_14_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_14_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -10586,7 +10586,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -10603,13 +10603,13 @@
             "O": [ 27 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_14_D_SB_LUT4_O_I3_SB_CARRY_CO": {
+        "freqcounter_q_SB_DFFSR_Q_14_D_SB_LUT4_O_I3_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -10624,14 +10624,14 @@
             "I1": [ 29 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_15": {
+        "freqcounter_q_SB_DFFSR_Q_15": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -10646,7 +10646,7 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_15_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_15_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -10654,7 +10654,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -10671,13 +10671,13 @@
             "O": [ 30 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_15_D_SB_LUT4_O_I3_SB_CARRY_CO": {
+        "freqcounter_q_SB_DFFSR_Q_15_D_SB_LUT4_O_I3_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -10692,14 +10692,14 @@
             "I1": [ 32 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_16": {
+        "freqcounter_q_SB_DFFSR_Q_16": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -10714,7 +10714,7 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_16_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_16_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -10722,7 +10722,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -10739,13 +10739,13 @@
             "O": [ 33 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_16_D_SB_LUT4_O_I3_SB_CARRY_CO": {
+        "freqcounter_q_SB_DFFSR_Q_16_D_SB_LUT4_O_I3_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -10760,14 +10760,14 @@
             "I1": [ 35 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_17": {
+        "freqcounter_q_SB_DFFSR_Q_17": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -10782,7 +10782,7 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_17_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_17_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -10790,7 +10790,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -10807,13 +10807,13 @@
             "O": [ 36 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_17_D_SB_LUT4_O_I3_SB_CARRY_CO": {
+        "freqcounter_q_SB_DFFSR_Q_17_D_SB_LUT4_O_I3_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -10828,14 +10828,14 @@
             "I1": [ 38 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_18": {
+        "freqcounter_q_SB_DFFSR_Q_18": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -10850,7 +10850,7 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_18_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_18_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -10858,7 +10858,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -10875,13 +10875,13 @@
             "O": [ 39 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_18_D_SB_LUT4_O_I3_SB_CARRY_CO": {
+        "freqcounter_q_SB_DFFSR_Q_18_D_SB_LUT4_O_I3_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -10896,14 +10896,14 @@
             "I1": [ 41 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_19": {
+        "freqcounter_q_SB_DFFSR_Q_19": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -10918,7 +10918,7 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_19_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_19_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -10926,7 +10926,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -10943,13 +10943,13 @@
             "O": [ 42 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_19_D_SB_LUT4_O_I3_SB_CARRY_CO": {
+        "freqcounter_q_SB_DFFSR_Q_19_D_SB_LUT4_O_I3_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -10964,7 +10964,7 @@
             "I1": [ 44 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_1_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_1_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -10972,7 +10972,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -10989,13 +10989,13 @@
             "O": [ 11 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_1_D_SB_LUT4_O_I3_SB_CARRY_CO": {
+        "freqcounter_q_SB_DFFSR_Q_1_D_SB_LUT4_O_I3_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -11010,14 +11010,14 @@
             "I1": [ 47 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_2": {
+        "freqcounter_q_SB_DFFSR_Q_2": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -11032,14 +11032,14 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_20": {
+        "freqcounter_q_SB_DFFSR_Q_20": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -11054,7 +11054,7 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_20_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_20_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -11062,7 +11062,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -11079,13 +11079,13 @@
             "O": [ 49 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_20_D_SB_LUT4_O_I3_SB_CARRY_CO": {
+        "freqcounter_q_SB_DFFSR_Q_20_D_SB_LUT4_O_I3_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -11100,14 +11100,14 @@
             "I1": [ 51 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_21": {
+        "freqcounter_q_SB_DFFSR_Q_21": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -11122,7 +11122,7 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_21_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_21_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -11130,7 +11130,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -11147,13 +11147,13 @@
             "O": [ 52 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_21_D_SB_LUT4_O_I3_SB_CARRY_CO": {
+        "freqcounter_q_SB_DFFSR_Q_21_D_SB_LUT4_O_I3_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -11168,14 +11168,14 @@
             "I1": [ 54 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_22": {
+        "freqcounter_q_SB_DFFSR_Q_22": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -11190,7 +11190,7 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_22_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_22_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -11198,7 +11198,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -11215,14 +11215,14 @@
             "O": [ 55 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_23": {
+        "freqcounter_q_SB_DFFSR_Q_23": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -11237,7 +11237,7 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_23_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_23_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -11262,7 +11262,7 @@
             "O": [ 56 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_2_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_2_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -11270,7 +11270,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -11287,13 +11287,13 @@
             "O": [ 48 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_2_D_SB_LUT4_O_I3_SB_CARRY_CO": {
+        "freqcounter_q_SB_DFFSR_Q_2_D_SB_LUT4_O_I3_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -11308,14 +11308,14 @@
             "I1": [ 58 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_3": {
+        "freqcounter_q_SB_DFFSR_Q_3": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -11330,7 +11330,7 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_3_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_3_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -11338,7 +11338,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -11355,13 +11355,13 @@
             "O": [ 59 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_3_D_SB_LUT4_O_I3_SB_CARRY_CO": {
+        "freqcounter_q_SB_DFFSR_Q_3_D_SB_LUT4_O_I3_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -11376,14 +11376,14 @@
             "I1": [ 61 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_4": {
+        "freqcounter_q_SB_DFFSR_Q_4": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -11398,7 +11398,7 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_4_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_4_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -11406,7 +11406,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -11423,13 +11423,13 @@
             "O": [ 62 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_4_D_SB_LUT4_O_I3_SB_CARRY_CO": {
+        "freqcounter_q_SB_DFFSR_Q_4_D_SB_LUT4_O_I3_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -11444,14 +11444,14 @@
             "I1": [ 64 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_5": {
+        "freqcounter_q_SB_DFFSR_Q_5": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -11466,7 +11466,7 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_5_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_5_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -11474,7 +11474,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -11491,13 +11491,13 @@
             "O": [ 65 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_5_D_SB_LUT4_O_I3_SB_CARRY_CO": {
+        "freqcounter_q_SB_DFFSR_Q_5_D_SB_LUT4_O_I3_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -11512,14 +11512,14 @@
             "I1": [ 67 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_6": {
+        "freqcounter_q_SB_DFFSR_Q_6": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -11534,7 +11534,7 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_6_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_6_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -11542,7 +11542,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -11559,13 +11559,13 @@
             "O": [ 68 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_6_D_SB_LUT4_O_I3_SB_CARRY_CO": {
+        "freqcounter_q_SB_DFFSR_Q_6_D_SB_LUT4_O_I3_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -11580,14 +11580,14 @@
             "I1": [ 70 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_7": {
+        "freqcounter_q_SB_DFFSR_Q_7": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -11602,7 +11602,7 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_7_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_7_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -11610,7 +11610,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -11627,13 +11627,13 @@
             "O": [ 71 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_7_D_SB_LUT4_O_I3_SB_CARRY_CO": {
+        "freqcounter_q_SB_DFFSR_Q_7_D_SB_LUT4_O_I3_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -11648,14 +11648,14 @@
             "I1": [ 73 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_8": {
+        "freqcounter_q_SB_DFFSR_Q_8": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -11670,7 +11670,7 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_8_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_8_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -11678,7 +11678,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -11695,13 +11695,13 @@
             "O": [ 74 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_8_D_SB_LUT4_O_I3_SB_CARRY_CO": {
+        "freqcounter_q_SB_DFFSR_Q_8_D_SB_LUT4_O_I3_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -11716,14 +11716,14 @@
             "I1": [ 76 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_9": {
+        "freqcounter_q_SB_DFFSR_Q_9": {
           "hide_name": 0,
           "type": "SB_DFFSR",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:17.1-23.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:20.1-26.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -11738,7 +11738,7 @@
             "R": [ 10 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_9_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_9_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -11746,7 +11746,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -11763,13 +11763,13 @@
             "O": [ 77 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_9_D_SB_LUT4_O_I3_SB_CARRY_CO": {
+        "freqcounter_q_SB_DFFSR_Q_9_D_SB_LUT4_O_I3_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -11784,7 +11784,7 @@
             "I1": [ 14 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_D_SB_LUT4_O": {
+        "freqcounter_q_SB_DFFSR_Q_D_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -11792,7 +11792,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -11809,13 +11809,13 @@
             "O": [ 8 ]
           }
         },
-        "freqcounter_SB_DFFSR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO": {
+        "freqcounter_q_SB_DFFSR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -11837,7 +11837,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:29.1-33.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:36.1-40.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -12083,7 +12083,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:32.20-32.33|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:32.15-32.30|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -12105,7 +12105,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:29.1-33.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:36.1-40.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -12128,7 +12128,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:32.20-32.33|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:32.15-32.30|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -12151,7 +12151,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "main.v:32.20-32.33|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "main.v:32.15-32.30|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -12173,7 +12173,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:29.1-33.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:36.1-40.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -12196,7 +12196,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:32.20-32.33|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:32.15-32.30|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -12220,7 +12220,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:29.1-33.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:36.1-40.6|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -12243,7 +12243,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:32.20-32.33|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:32.15-32.30|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -12276,338 +12276,338 @@
             "src": "main.v:2.14-2.19"
           }
         },
-        "freqcounter": {
+        "freqcounter_q": {
           "hide_name": 0,
           "bits": [ 53, 54, 51, 44, 41, 38, 35, 32, 29, 26, 23, 20, 17, 14, 76, 73, 70, 67, 64, 61, 58, 47, 12, 9 ],
           "attributes": {
-            "src": "main.v:11.12-11.23"
+            "src": "main.v:12.27-12.40"
           }
         },
-        "freqcounter_SB_DFFSR_Q_10_D": {
+        "freqcounter_q_SB_DFFSR_Q_10_D": {
           "hide_name": 0,
           "bits": [ 13 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_10_D_SB_LUT4_O_I3": {
+        "freqcounter_q_SB_DFFSR_Q_10_D_SB_LUT4_O_I3": {
           "hide_name": 0,
           "bits": [ 15 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
-        "freqcounter_SB_DFFSR_Q_11_D": {
+        "freqcounter_q_SB_DFFSR_Q_11_D": {
           "hide_name": 0,
           "bits": [ 18 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_11_D_SB_LUT4_O_I3": {
+        "freqcounter_q_SB_DFFSR_Q_11_D_SB_LUT4_O_I3": {
           "hide_name": 0,
           "bits": [ 16 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
-        "freqcounter_SB_DFFSR_Q_12_D": {
+        "freqcounter_q_SB_DFFSR_Q_12_D": {
           "hide_name": 0,
           "bits": [ 21 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_12_D_SB_LUT4_O_I3": {
+        "freqcounter_q_SB_DFFSR_Q_12_D_SB_LUT4_O_I3": {
           "hide_name": 0,
           "bits": [ 19 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
-        "freqcounter_SB_DFFSR_Q_13_D": {
+        "freqcounter_q_SB_DFFSR_Q_13_D": {
           "hide_name": 0,
           "bits": [ 24 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_13_D_SB_LUT4_O_I3": {
+        "freqcounter_q_SB_DFFSR_Q_13_D_SB_LUT4_O_I3": {
           "hide_name": 0,
           "bits": [ 22 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
-        "freqcounter_SB_DFFSR_Q_14_D": {
+        "freqcounter_q_SB_DFFSR_Q_14_D": {
           "hide_name": 0,
           "bits": [ 27 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_14_D_SB_LUT4_O_I3": {
+        "freqcounter_q_SB_DFFSR_Q_14_D_SB_LUT4_O_I3": {
           "hide_name": 0,
           "bits": [ 25 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
-        "freqcounter_SB_DFFSR_Q_15_D": {
+        "freqcounter_q_SB_DFFSR_Q_15_D": {
           "hide_name": 0,
           "bits": [ 30 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_15_D_SB_LUT4_O_I3": {
+        "freqcounter_q_SB_DFFSR_Q_15_D_SB_LUT4_O_I3": {
           "hide_name": 0,
           "bits": [ 28 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
-        "freqcounter_SB_DFFSR_Q_16_D": {
+        "freqcounter_q_SB_DFFSR_Q_16_D": {
           "hide_name": 0,
           "bits": [ 33 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_16_D_SB_LUT4_O_I3": {
+        "freqcounter_q_SB_DFFSR_Q_16_D_SB_LUT4_O_I3": {
           "hide_name": 0,
           "bits": [ 31 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
-        "freqcounter_SB_DFFSR_Q_17_D": {
+        "freqcounter_q_SB_DFFSR_Q_17_D": {
           "hide_name": 0,
           "bits": [ 36 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_17_D_SB_LUT4_O_I3": {
+        "freqcounter_q_SB_DFFSR_Q_17_D_SB_LUT4_O_I3": {
           "hide_name": 0,
           "bits": [ 34 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
-        "freqcounter_SB_DFFSR_Q_18_D": {
+        "freqcounter_q_SB_DFFSR_Q_18_D": {
           "hide_name": 0,
           "bits": [ 39 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_18_D_SB_LUT4_O_I3": {
+        "freqcounter_q_SB_DFFSR_Q_18_D_SB_LUT4_O_I3": {
           "hide_name": 0,
           "bits": [ 37 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
-        "freqcounter_SB_DFFSR_Q_19_D": {
+        "freqcounter_q_SB_DFFSR_Q_19_D": {
           "hide_name": 0,
           "bits": [ 42 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_19_D_SB_LUT4_O_I3": {
+        "freqcounter_q_SB_DFFSR_Q_19_D_SB_LUT4_O_I3": {
           "hide_name": 0,
           "bits": [ 40 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
-        "freqcounter_SB_DFFSR_Q_1_D": {
+        "freqcounter_q_SB_DFFSR_Q_1_D": {
           "hide_name": 0,
           "bits": [ 11 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_1_D_SB_LUT4_O_I3": {
+        "freqcounter_q_SB_DFFSR_Q_1_D_SB_LUT4_O_I3": {
           "hide_name": 0,
           "bits": [ 45 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
-        "freqcounter_SB_DFFSR_Q_20_D": {
+        "freqcounter_q_SB_DFFSR_Q_20_D": {
           "hide_name": 0,
           "bits": [ 49 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_20_D_SB_LUT4_O_I3": {
+        "freqcounter_q_SB_DFFSR_Q_20_D_SB_LUT4_O_I3": {
           "hide_name": 0,
           "bits": [ 43 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
-        "freqcounter_SB_DFFSR_Q_21_D": {
+        "freqcounter_q_SB_DFFSR_Q_21_D": {
           "hide_name": 0,
           "bits": [ 52 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_21_D_SB_LUT4_O_I3": {
+        "freqcounter_q_SB_DFFSR_Q_21_D_SB_LUT4_O_I3": {
           "hide_name": 0,
           "bits": [ 50 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
-        "freqcounter_SB_DFFSR_Q_22_D": {
+        "freqcounter_q_SB_DFFSR_Q_22_D": {
           "hide_name": 0,
           "bits": [ 55 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_23_D": {
+        "freqcounter_q_SB_DFFSR_Q_23_D": {
           "hide_name": 0,
           "bits": [ 56 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_2_D": {
+        "freqcounter_q_SB_DFFSR_Q_2_D": {
           "hide_name": 0,
           "bits": [ 48 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_2_D_SB_LUT4_O_I3": {
+        "freqcounter_q_SB_DFFSR_Q_2_D_SB_LUT4_O_I3": {
           "hide_name": 0,
           "bits": [ 46 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
-        "freqcounter_SB_DFFSR_Q_3_D": {
+        "freqcounter_q_SB_DFFSR_Q_3_D": {
           "hide_name": 0,
           "bits": [ 59 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_3_D_SB_LUT4_O_I3": {
+        "freqcounter_q_SB_DFFSR_Q_3_D_SB_LUT4_O_I3": {
           "hide_name": 0,
           "bits": [ 57 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
-        "freqcounter_SB_DFFSR_Q_4_D": {
+        "freqcounter_q_SB_DFFSR_Q_4_D": {
           "hide_name": 0,
           "bits": [ 62 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_4_D_SB_LUT4_O_I3": {
+        "freqcounter_q_SB_DFFSR_Q_4_D_SB_LUT4_O_I3": {
           "hide_name": 0,
           "bits": [ 60 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
-        "freqcounter_SB_DFFSR_Q_5_D": {
+        "freqcounter_q_SB_DFFSR_Q_5_D": {
           "hide_name": 0,
           "bits": [ 65 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_5_D_SB_LUT4_O_I3": {
+        "freqcounter_q_SB_DFFSR_Q_5_D_SB_LUT4_O_I3": {
           "hide_name": 0,
           "bits": [ 63 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
-        "freqcounter_SB_DFFSR_Q_6_D": {
+        "freqcounter_q_SB_DFFSR_Q_6_D": {
           "hide_name": 0,
           "bits": [ 68 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_6_D_SB_LUT4_O_I3": {
+        "freqcounter_q_SB_DFFSR_Q_6_D_SB_LUT4_O_I3": {
           "hide_name": 0,
           "bits": [ 66 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
-        "freqcounter_SB_DFFSR_Q_7_D": {
+        "freqcounter_q_SB_DFFSR_Q_7_D": {
           "hide_name": 0,
           "bits": [ 71 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_7_D_SB_LUT4_O_I3": {
+        "freqcounter_q_SB_DFFSR_Q_7_D_SB_LUT4_O_I3": {
           "hide_name": 0,
           "bits": [ 69 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
-        "freqcounter_SB_DFFSR_Q_8_D": {
+        "freqcounter_q_SB_DFFSR_Q_8_D": {
           "hide_name": 0,
           "bits": [ 74 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_8_D_SB_LUT4_O_I3": {
+        "freqcounter_q_SB_DFFSR_Q_8_D_SB_LUT4_O_I3": {
           "hide_name": 0,
           "bits": [ 72 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
-        "freqcounter_SB_DFFSR_Q_9_D": {
+        "freqcounter_q_SB_DFFSR_Q_9_D": {
           "hide_name": 0,
           "bits": [ 77 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_9_D_SB_LUT4_O_I3": {
+        "freqcounter_q_SB_DFFSR_Q_9_D_SB_LUT4_O_I3": {
           "hide_name": 0,
           "bits": [ 75 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
-        "freqcounter_SB_DFFSR_Q_D": {
+        "freqcounter_q_SB_DFFSR_Q_D": {
           "hide_name": 0,
           "bits": [ 8 ],
           "attributes": {
           }
         },
-        "freqcounter_SB_DFFSR_Q_D_SB_LUT4_O_I3": {
+        "freqcounter_q_SB_DFFSR_Q_D_SB_LUT4_O_I3": {
           "hide_name": 0,
           "bits": [ 78 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:22.22-22.37|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:16.17-16.34|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
-        "led_count": {
+        "led_count_q": {
           "hide_name": 0,
           "bits": [ 4, 5, 6, 7 ],
           "attributes": {
-            "src": "main.v:26.11-26.20"
+            "src": "main.v:29.24-29.35"
           }
         },
         "out_0": {
@@ -12657,7 +12657,7 @@
           "bits": [ 87 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:32.20-32.33|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:32.15-32.30|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "out_1_SB_DFFE_Q_D": {
@@ -12678,7 +12678,7 @@
           "bits": [ 89 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:32.20-32.33|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "main.v:32.15-32.30|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/arith_map.v:62.5-70.4|/Users/oompje_joost/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "out_2_SB_DFFE_Q_D": {

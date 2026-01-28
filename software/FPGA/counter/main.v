@@ -7,29 +7,36 @@ module main (
   output wire out_2,
   output wire out_3
 );
-
-reg [23:0] freqcounter = 0;
-wire tick;
 parameter PRESCALER = 24'd16_000_000; //16MHz to 1 Hz
 
-assign tick = (freqcounter == (PRESCALER - 1));
+reg [23:0] freqcounter_d, freqcounter_q; //frequency prescaler counters
+wire tick; //generated tick
 
-always @ (posedge clk_i)
+always @(*) begin //combinational block
+freqcounter_d = freqcounter_q + 1;
+tick = (freqcounter_q == (PRESCALER - 1));
+end
+
+always @ (posedge clk_i) //move state forward
   begin 
     if (tick)
-      freqcounter <= 0;
+      freqcounter_q <= 0;
     else 
-      freqcounter <= freqcounter + 1;
+      freqcounter_q <= freqcounter_d;
   end
 
 // counter logic
-reg [3:0] led_count;
-assign {out_3, out_2, out_1, out_0} = led_count;
+reg [3:0] led_count_d, led_count_q;
 
-always @ (posedge clk_i)
+always @(*) begin //combinational block
+led_count_d = led_count_q + 1;
+{out_3, out_2, out_1, out_0} = led_count_q;
+end
+
+always @ (posedge clk_i) //move counter forward
   begin
     if (tick)
-      led_count <= led_count + 1;
+      led_count_q <= led_count_d;
   end
 
 endmodule
