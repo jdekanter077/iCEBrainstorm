@@ -2,6 +2,8 @@
 
 A STM32F412 MCU with a iCE40UP5K FPGA on a compact dev board.
 
+![boards](./documentation/boards.png)
+
 You will need STMCubeMX, VSCode and STMCubeProgrammer to program the STM.
 
 <!-- You can use [apio](https://github.com/FPGAwars/apio) to synthesise a design and upload the firmware to the FPGA using a [online dfu-uploader](https://devanlai.github.io/webdfu/dfu-util/) (easier) -->
@@ -135,6 +137,26 @@ These informations should be in every ```main.pcf``` file.
 | uart_rx | 3  | uart input (STM TX -> FPGA RX) | 
 | scl | 19 | I2C Clock | 
 | sda | 18 | I2C Data | 
+
+# Examples
+
+## FPGA & STM: Morse Encoder
+This project implements Morse encoder. The FPGA encodes the Morse Code, and sends the encoded character over UART to the STM.
+The STM then sends the recieved character over USB to the host machine.
+
+- upload ```./software/STM/uart_serial_bridge``` to the STM.
+- upload ```./software/FPGA/morse_uart``` to the FPGA.
+- open a serial monitor and have fun!
+
+for details: take a look at the [Readme](./software/FPGA/morse_uart/README.md)
+
+## STM: uart-serial Bridge
+
+This project implements a UART-Serial bridge. The STM sends all recieved uart messages over usb to the host machine, and sends all recieved usb messages over usb to the FPGA.
+This is done by using an Interrupt-driven approach.
+
+snippet:
+
 
 # Author
 Joël de Kanter
