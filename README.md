@@ -4,7 +4,7 @@ A STM32F412 MCU with a iCE40UP5K FPGA on a compact dev board.
 
 ![boards](./documentation/boards.png)
 
-You will need STMCubeMX, VSCode and STMCubeProgrammer to program the STM.
+You will need STMCubeMX, VSCode with the STM32Cube Extension and STMCubeProgrammer to program the STM.
 
 <!-- You can use [apio](https://github.com/FPGAwars/apio) to synthesise a design and upload the firmware to the FPGA using a [online dfu-uploader](https://devanlai.github.io/webdfu/dfu-util/) (easier) -->
 
@@ -63,7 +63,7 @@ Check if the ```CDONE``` LED at the top of the board is on.
 Found DFU: [1d50:6146] ver=0006, devnum=12, cfg=1, intf=0, path="", alt=0, name="iCE40 bitstream", serial="e464bc68932e5839"
 ``` -->
 <!-- - run ```dfu-util -d 1d50:6146 -a 0 -D hardware.bin``` to flash your bitstream on the FPGA. Maybe You have to replace the ```1d50:6146```-number with what you see on your terminal. -->
-- run ```apio devices usb``` to list all dfu devices.
+- you can run ```apio devices usb``` to list all dfu devices and verify that everything works.
 - run ```apio upload``` to synthesize and upload the verilog code.
 
 -  To edit your HDL code, take a look at the examples in [software/FPGA](./software/FPGA)
@@ -96,6 +96,54 @@ This will add apio support for the iCEBrainstorm board.
 ### Bootloader
 The Bootloader is preinstalled by Joël and should not have to be touched.
 Check out [bootloader/README.md](./software/FPGA/bootloader/README.md) for more information.
+
+## Setting up a blank Project
+### STM
+- Open CubeMX and select ```File -> New Project```.
+- In ```Commercial Part Number```, Type ```STM32F412RET6TR``` and select ```Start Project```.
+![](./documentation/stcubemx_newproj.png)
+- Select ```RCC_MCO_2``` on ```PB9``` to provide a Clock signal to the FPGA
+- Select your desired pins, for example ```PB5```, which is connected to the on-board LED and select ```GPIO_Output```.
+![](./documentation/stcubemx_pins.png)
+- On the left Pane in ```System Core -> GPIO -> PB5``` set a user label, for example ```OUT_STM```
+![](./documentation/stcubemx_gpio.png)
+- Set the Input Clock to Cyrstal Oscillator in ```System Core -> RCC```
+![](./documentation/stcubemx_sys_clock.png)
+- Got to ```Clock Configuration``` at the top and set the Input Frequency of the Clock to 16 MHz
+![](./documentation/stcubemx_clock_tree.png)
+- Go to ```Project Manager``` on the top.
+Make sure to select ```CMake``` as the ```Toolchain / IDE```.
+![](./documentation/stcubemx_projman1.png)
+Make sure to set ```Generate ... as pair of '.c/.h' files ...```
+![](./documentation/stcubemx_projman2.png)
+
+- Save your project and click ```GENRATE CODE``` in the top right and open the folder in VSCode
+
+- Make sure to not miss the notification to "configure CMake Projects as STM32 Projects". click Yes.
+![](documentation/vscode_notification.png)
+
+- Select a Preset from the Popup (Debug)
+- Edit the Code, for example, add blinky loop in ```Core/Src/main.c```
+- ```line 98```:
+
+```
+/* USER CODE BEGIN WHILE */
+while (1)
+  {
+    HAL_GPIO_TogglePin(OUT_STM_GPIO_Port, OUT_STM_Pin);
+    HAL_Delay(100);
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+  }
+  /* USER CODE END 3 */
+}
+```
+- To Compile the code, go to ```Run & Debug -> Run & Debug -> STM32Cube: STLink GDB Server```
+
+![](documentation/vscode_compile.png)
+- This will compile the code, and try to start a "debugger", which is not available and gives a error. The Code should still be compiled correctly!
+- Check if you have a ```.elf``` file in ```build/Debug/```. Upload this to the iCEBrainstorm using the steps described in [how-to-programm](#how-to-program)
 
 ## Clock
 The STM and the FPGA are relatively independent from each other, with one slight caveat:
