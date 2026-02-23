@@ -1,0 +1,31 @@
+timestamp: "22185135146"
+arch: ICE40
+fpga_info {
+  fpga_id: "ice40up5k-sg48"
+  part_num: "ICE40UP5K-SG48"
+  size: "5k"
+  ice40 {
+    type: "up5k"
+    pack: "sg48"
+  }
+}
+environment {
+  platform_id: "darwin-arm64"
+  is_windows: false
+  terminal_mode: FORCE_TERMINAL
+  theme_name: "light"
+  debug_level: 0
+  yosys_path: "/Users/oompje_joost/.apio/packages/oss-cad-suite/share/yosys"
+  trellis_path: "/Users/oompje_joost/.apio/packages/oss-cad-suite/share/trellis"
+  scons_shell_id: "zsh"
+}
+apio_env_params {
+  env_name: "default"
+  board_id: "iCEBrainstorm"
+  top_module: "main"
+}
+target {
+  upload {
+    programmer_cmd: "dfu-util -d 1D50:6146 -a 0 -D $SOURCE"
+  }
+}
