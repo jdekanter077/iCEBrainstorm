@@ -205,6 +205,11 @@ This is done by using an Interrupt-driven approach.
 
 snippet:
 
+## FPGA: bram
+[bram](./software/FPGA/bram)
+
+This example of how to instintiate a one of the build-in BRAMs on the FPGA is based on [this repo](https://github.com/damdoy/ice40_ultraplus_examples/tree/master/bram) and on the [online documentation](https://www.latticesemi.com/~/media/LatticeSemi/Documents/ApplicationNotes/MO/MemoryUsageGuideforiCE40Devices.pdf)
+It uses the switches IN0-IN3 as input "data" and loads it into the bram using btn0. Using btn1, the "data" can then be displayed on the leds.
 
 # Author
 Joël de Kanter

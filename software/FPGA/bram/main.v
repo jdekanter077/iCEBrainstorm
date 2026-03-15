@@ -15,12 +15,11 @@ module main (
   output wire out_3
 );
 
-localparam [10:0] address = 11'd12;
+localparam [15:0] address = 15'b0;
 
-wire [3:0] mask = 16'b0; // mask is negated (mad emoji)
-wire [3:0] ram_rdata;
-wire [3:0] inputs = {in_3, in_2, in_1, in_0};
-
+wire [15:0] mask = 16'b0; // mask is negated (mad emoji)
+wire [15:0] ram_rdata;
+wire [15:0] inputs;
 reg [3:0] leds;
 
 // synchronize buttons
@@ -31,13 +30,18 @@ always @(posedge clk_i) begin
     btn1_sync <= btn_1;
 end
 
-wire re = btn0_sync;
-wire we = btn1_sync;
+wire re;
+wire we;
+
+assign re = btn0_sync;
+assign we = btn1_sync;
 
 always @(posedge clk_i) begin
     if (re)
-        leds <= ram_rdata;
+        leds <= ram_rdata[3:0];
 end
+
+assign inputs = {12'b0, in_3, in_2, in_1, in_0};
 
 assign {out_3, out_2, out_1, out_0} = leds;
 
@@ -54,8 +58,5 @@ SB_RAM40_4K ram40_4kinst_physical (
     .WCLK(clk_i),
     .WE(we)
 );
-
-defparam ram40_4kinst_physical.READ_MODE=2;
-defparam ram40_4kinst_physical.WRITE_MODE=2;
 
 endmodule
